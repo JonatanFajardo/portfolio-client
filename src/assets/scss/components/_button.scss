@@ -1,0 +1,276 @@
+// //
+// // Button Sizes
+// //
+
+
+// // .btn-lg {
+// //   @include button-size(
+// //     $btn-padding-y-lg, 
+// //     $btn-padding-x-lg, 
+// //     $btn-font-size-lg, 
+// //     $btn-line-height-lg, 
+// //     $btn-border-radius-lg
+// //     );
+// // }
+
+// // .btn-sm {
+// //   @include button-size(
+// //     $btn-padding-y-sm, 
+// //     $btn-padding-x-sm, 
+// //     $btn-font-size-sm, 
+// //     $btn-line-height-sm, 
+// //     $btn-border-radius-sm
+// //     );
+// // }
+
+// .btn-group {
+//   outline: none;
+//   display: flex;
+//   flex-direction: column;
+//   height: 100%;
+//   flex-wrap: nowrap;
+//   justify-content: center;
+//   text-align: center;
+//   width: 100%;
+//   /*  margin-top: 15px;
+//   margin-bottom: 15px; */
+// }
+
+// .btn {
+//   display: inline-block;
+//   font-family: $btn-font-family;
+//   font-weight: $btn-font-weight;
+//   color: inherit;
+//   //white-space: $btn-white-space;
+//   text-align: center;
+//   vertical-align: middle;
+//   user-select: none;
+//   background-color: transparent;
+//   border: $btn-border-width solid transparent;
+//   padding: 0.5rem 0.9375rem;
+//   -webkit-border-radius: 15px;
+//   -moz-border-radius: 15px;
+//   -ms-border-radius: 15px;
+//   -o-border-radius: 15px;
+//   cursor: pointer;
+//   margin-top: 15px;
+//   margin-bottom: 15px;
+//   transition: all 0.5s ease-out;
+//   -webkit-transition: all 0.5s ease-out;
+//   -moz-transition: all 0.5s ease-out;
+//   -ms-transition: all 0.5s ease-out;
+//   -o-transition: all 0.5s ease-out;
+//   font-size: 1rem;
+//   line-height: 1.5;
+//   border: none;
+//   border-radius: 0.9375rem;
+  
+//   // @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, $btn-border-radius);
+//   // @include transition($btn-transition);
+
+//   // @include hover() {
+//   //   color: $body-color;
+//   //   text-decoration: none;
+//   // }
+
+//   // &:focus,
+//   // &.focus {
+//   //   outline: 0;
+//   //   box-shadow: $btn-focus-box-shadow;
+//   // }
+
+//   // // Disabled comes first so active can properly restyle
+//   // &.disabled,
+//   // &:disabled {
+//   //   opacity: $btn-disabled-opacity;
+//   //   @include box-shadow(none);
+//   // }
+
+//   // &:not(:disabled):not(.disabled):active,
+//   // &:not(:disabled):not(.disabled).active {
+//   //   @include box-shadow($btn-active-box-shadow);
+
+//   //   &:focus {
+//   //     @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+//   //   }
+//   // }
+
+// }
+
+
+
+
+
+
+// // 
+// // Alternate buttons
+// //
+
+// // @each $color, $value in $theme-colors {
+// //   .btn-#{$color} {
+// //     @include button-variant($value, $value);
+// //   }
+// // }
+
+// // @each $color, $value in $theme-colors {
+// //   .btn-outline-#{$color} {
+// //     @include button-outline-variant($value);
+// //   }
+// // }
+
+
+
+
+
+
+
+
+// // @mixin custom-button($background, $color, $border) {
+// //   color: $color;
+// //   background-color: $background;
+// //   border-color: $border;
+// //   &:focus, &.focus {
+// //     color: $color;
+// //     background-color: darken($background, 10%);
+// //     border-color: darken($border, 25%);
+// //   }
+// //   &:hover {
+// //     color: $color;
+// //     background-color: darken($background, 10%);
+// //     border-color: darken($border, 12%);
+// //   }
+// //   &:active, &.active, .open > &.dropdown-toggle {
+// //     color: $color;
+// //     background-color: darken($background, 10%);
+// //     border-color: darken($border, 12%);
+
+// //     &:hover, &:focus, &.focus {
+// //       color: $color;
+// //       background-color: darken($background, 17%);
+// //       border-color: darken($border, 25%);
+// //     }
+// //   }
+// //   &:active, &.active, .open > &.dropdown-toggle {
+// //     background-image: none;
+// //   }
+// //   &.disabled, &[disabled], fieldset[disabled] & {
+// //     &, &:hover, &:focus, &.focus, &:active, &.active {
+// //       background-color: $background;
+// //       border-color: $border;
+// //     }
+// //   }
+// //   .badge {
+// //     color: $background;
+// //     background-color: $color;
+// //   }
+// // }
+
+// // Mixin to create a bootstrap button with custom colors
+// // @mixin custom-button($background) {
+// //   $color: #fff;
+// //   $border: 5%;
+
+// //   // @if (lightness($background) >= lightness(#aaa)) {
+// //   //   $color: #333;
+// //   //   $border: .2 * lightness($background);
+// //   // }
+// //   @include button-variant($color, $background, darken($background, $border));
+// // }
+
+// // // Social buttons
+// // .btn-facebook    { @include bootstrap-button(#3b5999); }
+// // .btn-twitter     { @include bootstrap-button(#55acee); }
+// // .btn-google-plus { @include bootstrap-button(#df4a32); }
+// // .btn-pinterest   { @include bootstrap-button(#cc2127); }
+
+// // // Gray buttons
+// // .btn-0 { @include bootstrap-button(#000); }
+// // .btn-1 { @include bootstrap-button(#111); }
+// // .btn-2 { @include bootstrap-button(#222); }
+// // .btn-3 { @include bootstrap-button(#333); }
+// // .btn-4 { @include bootstrap-button(#444); }
+// // .btn-5 { @include bootstrap-button(#555); }
+// // .btn-6 { @include bootstrap-button(#666); }
+// // .btn-7 { @include bootstrap-button(#777); }
+// // .btn-8 { @include bootstrap-button(#888); }
+// // .btn-9 { @include bootstrap-button(#999); }
+// // .btn-a { @include bootstrap-button(#aaa); }
+// // .btn-b { @include bootstrap-button(#bbb); }
+// // .btn-c { @include bootstrap-button(#ccc); }
+// // .btn-d { @include bootstrap-button(#ddd); }
+// // .btn-e { @include bootstrap-button(#eee); }
+// //.btn-f { @include bootstrap-button(#fff); }
+
+// // // Random colored buttons
+// // @for $i from 1 through 10 {
+// //   .btn-random-#{$i} {
+// //     $color: rgb(random(255), random(255), random(255));
+// //     @include bootstrap-button($color);
+// //     &::after {
+// //       content: "#{$color}";
+// //     }
+// //   }
+// // }
+
+
+
+// // .btn-helloworld { @include bootstrap-button(#3566e7); }
+
+
+ 
+
+
+
+
+// // .btn-round { @include custom-button(); }
+// // .btn-circle { @include custom-button(); }
+// // .btn-square { @include custom-button(); }
+// // .btn-skew { @include custom-button(); }
+// // .btn-outline-dashed { @include custom-button(); }
+// // .btn-link { @include custom-button(); }
+// // .btn-primary { @include custom-button($primary, $te); }
+// // .btn-secondary { @include custom-button(); }
+// // .btn-success { @include custom-button(); }
+// // .btn-warning { @include custom-button(); }
+// // .btn-info { @include custom-button(); }
+// // .btn-danger { @include custom-button(); }
+// // .btn-pink { @include custom-button(); }
+// // .btn-purple { @include custom-button(); }
+// // .btn-blue { @include custom-button(); }
+// // .btn-dark { @include custom-button(); }
+// // .btn-gray { @include custom-button(); }
+// // .btn-light { @include custom-button(); }
+// // .btn-outline-light { @include custom-button(); }
+// // .btn-outline-dark { @include custom-button(); }
+// // .btn-soft-primary { @include custom-button(); }
+// // .btn-soft-secondary { @include custom-button(); }
+// // .btn-soft-success { @include custom-button(); }
+// // .btn-soft-warning { @include custom-button(); }
+// // .btn-soft-danger { @include custom-button(); }
+// // .btn-soft-info { @include custom-button(); }
+// // .btn-soft-dark { @include custom-button(); }
+// // .btn-soft-pink { @include custom-button(); }
+// // .btn-soft-purple { @include custom-button(); }
+// // .btn-soft-blue { @include custom-button(); }
+
+
+
+
+// .btn-lg, .btn-group-lg>.btn {
+//   padding: .5rem 1rem;
+//   font-size: 1.05625rem;
+//   line-height: 1.5;
+//   border-radius: .3rem;
+// }
+
+
+
+
+// // .btn-gradient-primary {
+// //   background: linear-gradient(
+// // 14deg
+// // , #506ee4 0%, rgba(80,110,228,0.6));
+// //   color: #fff;
+// //   box-shadow: 0 7px 14px 0 rgb(80 110 228 / 50%);
+// //   border: none;
+// // }

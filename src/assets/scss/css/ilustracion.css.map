@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,YAAY,CAAA;EACR,UAAU,EAAE,MAAM;CAMrB;;AAPD,AAEI,YAFQ,CAER,IAAI,CAAA;EACA,OAAO,EAAE,MAAM;EACf,SAAS,EAAE,GAAG;CAEjB;;AAEL;;;;;;;IAOI;AAGJ;;;IAGI",
+    "sources": [
+        "../pages/ilustracion.scss"
+    ],
+    "names": [],
+    "file": "ilustracion.css"
+}

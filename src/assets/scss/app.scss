@@ -1,0 +1,73 @@
+
+
+@import "variables";
+
+
+
+//=======
+//Mixin
+//=======
+@import "./mixins/colors";
+// @import "mixin/text-emphasis.scss";
+// @import "mixin/text-hide.scss";
+// @import "mixin/text-truncate.scss";
+// @import "mixin/transition.scss";
+// @import "mixin/visibility.scss";
+// @import "mixin/background-variant.scss";
+// @import "mixin/border-radius.scss";
+// @import "mixin/box-shadow.scss";
+// @import "mixin/buttons.scss";
+// @import "mixin/float.scss";
+// @import "mixin/forms.scss";
+// @import "mixin/gradients.scss";
+// @import "mixin/grid.scss";
+// @import "mixin/grid-framework.scss";
+// @import "mixin/hover.scss";
+// @import "mixin/image.scss";
+// @import "mixin/pagination.scss";
+// @import "mixin/reset-text.scss";
+// @import "mixin/resize.scss";
+// @import "mixin/screen-reader.scss";
+// @import "mixin/size.scss";
+// @import "mixin/table-row.scss";
+
+//=======
+// Estructure
+//=======
+
+@import "structure/topbar";
+@import "structure/footer";
+
+//=======
+//Pages
+//=======
+
+@import "pages/index";
+@import "pages/ilustracion";
+
+//=======
+//Componentes
+//=======
+
+@import "components/general";
+@import "components/regilla";
+@import "components/cards";
+@import "components/button";
+@import "components/animate";
+@import "reboot";
+@import "components/responsive";
+
+
+
+// @import url("pages/index");
+// @import url("pages/ilustracion");
+
+ 
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+#wellcome {
+  padding-top: 5rem;
+  color: white;
+  background: -ms-linear-gradient(30deg, #888df5 0%, #5459be 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#888DF5', endColorstr='#5459BE' ,GradientType=0)";
+  background: linear-gradient(60deg, #888df5 0%, #5459be 100%);
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#888DF5',endColorstr='#5459BE' , GradientType=1);
+}
+
+#wellcome a {
+  color: Froly;
+}
+
+#wellcome .col-6 {
+  padding: 0 3rem;
+}
+
+#wellcome h1 {
+  letter-spacing: 0.3125rem;
+}
+
+.wellcome {
+  width: 100%;
+}
+.waves {
+  margin-top: 2rem;
+}
+
+/* =============== description ================== */
+
+#image-description{
+  width:50%; 
+}
+/* =============== Experience ================== */
+.experience-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}

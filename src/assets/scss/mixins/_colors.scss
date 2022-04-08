@@ -1,0 +1,25 @@
+@each $color_name, $color in $grays{
+    .gray-#{$color_name}{
+      background-color: $color;
+    }
+  }
+
+  @each $color_name, $color in $colors{
+    .bg-#{$color_name}{
+      background-color: $color;
+    }
+  }
+
+  @each $color_name, $color in $colors{
+    .font-color-#{$color_name}{
+      color: $color;
+    }
+  }
+  
+  @each $color_name, $color in $colors{
+    .btn-#{$color_name}{
+      color: #fff !important;
+      background-color: $color !important;
+      border-color: $color !important; 
+    }
+  }

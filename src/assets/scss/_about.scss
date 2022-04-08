@@ -1,0 +1,185 @@
+/* ===================================================
+                      ABOUT
+=================================================== */
+
+:root{
+    --radius:1rem;
+}
+
+path {
+  stroke: none;
+  fill: #133a68;
+}
+
+#about {
+  padding: 5rem 0rem;
+
+  background: rgba(28, 48, 129, 1);
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(28, 48, 129, 1) 0%,
+    rgba(19, 59, 102, 1) 60%,
+    rgba(19, 59, 102, 1) 63%
+  );
+  background: -webkit-gradient(
+    left bottom,
+    right top,
+    color-stop(0%, rgba(28, 48, 129, 1)),
+    color-stop(60%, rgba(19, 59, 102, 1)),
+    color-stop(63%, rgba(19, 59, 102, 1))
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(28, 48, 129, 1) 0%,
+    rgba(19, 59, 102, 1) 60%,
+    rgba(19, 59, 102, 1) 63%
+  );
+  background: -o-linear-gradient(
+    45deg,
+    rgba(28, 48, 129, 1) 0%,
+    rgba(19, 59, 102, 1) 60%,
+    rgba(19, 59, 102, 1) 63%
+  );
+  background: -ms-linear-gradient(
+    45deg,
+    rgba(28, 48, 129, 1) 0%,
+    rgba(19, 59, 102, 1) 60%,
+    rgba(19, 59, 102, 1) 63%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(28, 48, 129, 1) 0%,
+    rgba(19, 59, 102, 1) 60%,
+    rgba(19, 59, 102, 1) 63%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3081', endColorstr='#133b66', GradientType=1 );
+
+  .fondo {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: var(--radius);
+    z-index: 5;
+  }
+  img {
+    /*    width: 200px;
+    height: 200px; */
+  }
+  .text {
+    margin-top: 5rem;
+  }
+  .imagen {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: -140px;
+    margin-left: -100px;
+    text-align: center;
+    z-index: 5;
+  }
+  .btn {
+    border-radius: var(--radius);
+  }
+  .btnCustom {
+    width: 100%;
+    margin-bottom: -255px;
+    text-align: center;
+  }
+  .download {
+    /*     margin-bottom: -174px; */
+
+    /*     text-align: center;
+        float: right; */
+
+    width: 200px;
+    background-color: #8b94e0;
+    background-color: #eb6672;
+    color: white;
+  }
+  i::before {
+    margin: 0 10px;
+  }
+}
+
+/* ===================================================
+                      CONTACT
+=================================================== */
+#contact {
+  margin: 0px;
+}
+
+.text {
+  h1 {
+    color: #617c99;
+  }
+  p {
+    color: #727272;
+  }
+}
+
+
+/* ===================================================
+                      CERTIFICADOS
+=================================================== */
+#certificados{
+  padding: 4rem 0;
+
+    .card-header{
+        background-image: url("../img/certificate.jpg");
+    }
+    .cards-item{
+        border-radius: var(--radius);
+    }
+}
+
+/* ===================================================
+                      HABILIDADES
+=================================================== */
+
+#habilidades{
+  padding: 4rem 0;
+  background-color: #f2f2f2;
+  .cards-item{
+    border-radius: var(--radius);
+}
+
+  .next{
+    
+    background-color: #f2f2f2;
+    
+    i{
+      color: #727AD6;
+    }
+  }
+  
+}
+/* ===================================================
+                      MEDIA QUERIES
+=================================================== */
+
+@media (min-width: 768px) {
+  #about {
+    padding: 4rem 5rem;
+
+    .fondo {
+      padding: 4.4rem;
+    }
+    .text {
+      padding-left: 4rem;
+      margin-top: 0rem;
+    }
+    .download {
+      margin-bottom: -106px;
+    }
+    .btnCustom {
+      float: right;
+      text-align: none;
+      text-align: right;
+    }
+    .imagen {
+      margin-top: -138px;
+      margin-left: -129px;
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+}

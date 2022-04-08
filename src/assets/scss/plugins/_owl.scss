@@ -1,0 +1,17 @@
+
+/* --------------owl-cards------------- */
+.owl-cards {
+    /*   background-color: #ececec; */
+      padding: 1rem;
+      .item {
+        width: 100%;
+    
+        background: #ffffff;
+        .owl-cards-content{
+          padding: 1rem 0;
+          .owl-cards-text{
+            color:#333;
+          }
+        }
+      }
+    }

@@ -1,0 +1,22 @@
+.descripcion {
+  text-align: center;
+}
+
+.descripcion .col {
+  padding: 5rem 0;
+  max-width: 50%;
+}
+
+/* #wellcome{
+    p{
+        text-align: center;
+    }
+    a{
+        color: var(--red-light);
+      }
+} */
+/* .wellcome {
+    background-repeat: repeat;
+    background-image: url("assets/img/pattern.png");
+} */
+/*# sourceMappingURL=ilustracion.css.map */

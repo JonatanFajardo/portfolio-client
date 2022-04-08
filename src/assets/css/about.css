@@ -1,0 +1,149 @@
+/* ===================================================
+                      ABOUT
+=================================================== */
+:root {
+  --radius:1rem;
+}
+
+path {
+  stroke: none;
+  fill: #133a68;
+}
+
+#about {
+  padding: 5rem 0rem;
+  background: #1c3081;
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #1c3081), color-stop(60%, #133b66), color-stop(63%, #133b66));
+  background: linear-gradient(45deg, #1c3081 0%, #133b66 60%, #133b66 63%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3081', endColorstr='#133b66', GradientType=1 );
+}
+
+#about .fondo {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: var(--radius);
+  z-index: 5;
+}
+
+#about img {
+  /*    width: 200px;
+    height: 200px; */
+}
+
+#about .text {
+  margin-top: 5rem;
+}
+
+#about .imagen {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin-top: -140px;
+  margin-left: -100px;
+  text-align: center;
+  z-index: 5;
+}
+
+#about .btn {
+  border-radius: var(--radius);
+}
+
+#about .btnCustom {
+  width: 100%;
+  margin-bottom: -255px;
+  text-align: center;
+}
+
+#about .download {
+  /*     margin-bottom: -174px; */
+  /*     text-align: center;
+        float: right; */
+  width: 200px;
+  background-color: #8b94e0;
+  background-color: #eb6672;
+  color: white;
+}
+
+#about i::before {
+  margin: 0 10px;
+}
+
+/* ===================================================
+                      CONTACT
+=================================================== */
+#contact {
+  margin: 0px;
+}
+
+.text h1 {
+  color: #617c99;
+}
+
+.text p {
+  color: #727272;
+}
+
+/* ===================================================
+                      CERTIFICADOS
+=================================================== */
+#certificados {
+  padding: 4rem 0;
+}
+
+#certificados .card-header {
+  background-image: url("../img/certificate.jpg");
+}
+
+#certificados .cards-item {
+  border-radius: var(--radius);
+}
+
+/* ===================================================
+                      HABILIDADES
+=================================================== */
+#habilidades {
+  padding: 4rem 0;
+  background-color: #f2f2f2;
+}
+
+#habilidades .cards-item {
+  border-radius: var(--radius);
+}
+
+#habilidades .next {
+  background-color: #f2f2f2;
+}
+
+#habilidades .next i {
+  color: #727AD6;
+}
+
+/* ===================================================
+                      MEDIA QUERIES
+=================================================== */
+@media (min-width: 768px) {
+  #about {
+    padding: 4rem 5rem;
+  }
+  #about .fondo {
+    padding: 4.4rem;
+  }
+  #about .text {
+    padding-left: 4rem;
+    margin-top: 0rem;
+  }
+  #about .download {
+    margin-bottom: -106px;
+  }
+  #about .btnCustom {
+    float: right;
+    text-align: none;
+    text-align: right;
+  }
+  #about .imagen {
+    margin-top: -138px;
+    margin-left: -129px;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
