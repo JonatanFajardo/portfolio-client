@@ -1,0 +1,9 @@
+.image{
+    width: 100%;
+}
+.image img{
+    height: 209px;
+    /* max-height: 250px; */
+    /* width: auto; */
+    object-fit: cover;
+}

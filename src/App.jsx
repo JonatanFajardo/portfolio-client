@@ -1,13 +1,12 @@
-
 import Principal from "./pages/principal/Principal";
 import Item from "./pages/desarrollo-web/item/Item";
+import Resumen from "./pages/resumen/Resumen";
+
+import $ from "jquery";
 
 import DesarrolloWeb from "./pages/desarrollo-web/index/DesarrolloWeb";
-import {
-  BrowserRouter,
-  Routes,
-  Route
-} from "react-router-dom";
+import DisenoCreativo from "./pages/diseno-creativo/index/DisenoCreativo";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/app.css";
 
@@ -16,18 +15,12 @@ const App = () => {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/DesarrolloWeb" element={
-            <DesarrolloWeb />
-          }>
-          </Route>
-            <Route path="/" element={
-              <Principal/>
-          }></Route>
+          <Route path="/" element={<Principal />}></Route>
+          <Route path="/DesarrolloWeb" element={<DesarrolloWeb />}></Route>
+          <Route path="/DisenoCreativo" element={<DisenoCreativo />}></Route>
+          <Route path="/Resumen" element={<Resumen />}></Route>
 
-            <Route path="/DesarrolloWeb/Item/:id" element={
-              <Item/>
-          }></Route>
-
+          <Route path="/DesarrolloWeb/Item/:id" element={<Item />}></Route>
         </Routes>
       </BrowserRouter>
     </>

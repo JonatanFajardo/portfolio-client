@@ -6,18 +6,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 import FootAbaut from "../../../assets/img/footAbaut.svg";
 import WavesServices from '../../../assets/img/WavesServicesvg.svg';
+import { Link } from "react-router-dom";
 const desarrolloWeb = () => {
   return (
     <>
+      {/* <!-- wellcome section start --> */}
       <section id="wellcome">
         <div class="container-fluid">
           <div class="row">
             <div class="col text-center">
               <h1 class="text-uppercase fw-bold">DESARROLLO WEB</h1>
               <p>
-                <a href="index.html" className="font-color-red">
+                <Link to="/"  className="font-color-red">
                   Home
-                </a>{" "}
+                </Link>{" "}
                 / Desarrollo web
               </p>
             </div>
@@ -41,7 +43,9 @@ const desarrolloWeb = () => {
               </div>
             </div>
       </section>
+      {/* <!-- wellcome section start --> */}
 
+      {/* <!-- description section start --> */}
       <section class="description gray-100">
         <div class="container">
           <div class="row mc">
@@ -73,7 +77,9 @@ const desarrolloWeb = () => {
             <img class="waves-item" src={FootAbaut} alt="" />
           </div>
       </section>
+      {/* <!-- description section start --> */}
 
+      {/* <!-- experience section start --> */}
       <section id="experience" className="container pb-5">
         <div className="row d-flex">
           {/* titulo */}
@@ -214,8 +220,25 @@ const desarrolloWeb = () => {
           </div>
         </div>
       </section>
+      {/* <!-- experience section start --> */}
 
       <Services />
+
+      {/* // <!-- freelancer available section start --> */}
+      <section class="freelancer-available py-5 bg-Moody-Blue">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+              <div class="col-lg-8 text-center">
+                  <p class="text-light fs-5">Échale un vistazo a mi apartado ilustrativo</p>
+                  <h2 class="fs-1 text-white mb-4">No esperes más para crear tu anuncio</h2>
+                  <Link to="/DisenoCreativo" class="btn btn-outline-light">
+                      Hacerlo
+                  </Link>
+              </div>
+            </div>
+        </div>
+      </section>
+      {/* // <!-- freelancer available section end --> */}
     </>
   );
 };

@@ -39,8 +39,8 @@ const Service = () => {
                        <FontAwesomeIcon icon={faBezierCurve} />
                        </div>
                        <h3 class="fs-5 py-2">
-                           <Link to="DesarrolloWeb" className='font-color-red text-decoration-none'>
-                                Diseño creativo
+                           <Link to="DisenoCreativo" className='font-color-red text-decoration-none'>
+                                Diseño Creativo
                            </Link>
                         </h3>
                        <p class="text-muted">Crea tu logo profesional o tu anuncion publicitario.</p>

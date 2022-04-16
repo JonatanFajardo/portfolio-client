@@ -1,8 +1,6 @@
 import React from "react";
 import ImageCard from "../../../components/imageCard/imageCard";
-import data from "../data";
-
-let pathImage = "../../assets/img/desarrollo-web/";
+import desarrolloweb from "../data";
 
 const Services = () => {
   return (
@@ -43,13 +41,13 @@ const Services = () => {
             </div> */}
             
         <div class="row g-4">
-          {data.map(
+          {desarrolloweb.map(
             ({
               deweb_Id,
               deweb_Nombre,
               deweb_Descripcion,
               deweb_Imagen,
-              deweb_Categoria,
+              deweb_Categoria
             }) => (
               <ImageCard
                 id={deweb_Id}

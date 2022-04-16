@@ -20,22 +20,22 @@ const imageCard = ({id, title, information, imagenSource, nameRedirect, urlRedir
     //     </div>
     // </div>
     // setImages(imagenSource);
-                    <div class="col-sm-12 col-md-6 col-lg-4   mt-5 mb-3 ">
-                        <div class="card h-100 card-blog">
-                            <div class="card-image ">
-                                <img class="img img-raised" src={imagenSource} alt={title}/>
-                                <div class="ripple-cont"></div>
-                            </div>
-                            <div class="table ">
-                                <h6 class="category">{categoria}</h6>
-                                <Link to={urlRedirect + id} className="text-decoration-none">
-                                {/* <button className="productListEdit">Edit</button> */}
-                                  <h4 class="card-caption mb-4 url-name">{title}</h4>
-                              </Link>
-                                <p class="card-description">{information}</p>
-                            </div>
-                        </div>
-                    </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 mt-5 mb-3 ">
+          <div class="card h-100 card-blog">
+              <div class="card-image ">
+                  <img class="img img-raised" src={imagenSource} alt={title}/>
+                  <div class="ripple-cont"></div>
+              </div>
+              <div class="table ">
+                  <h6 class="category">{categoria.replace(/ /g, "")}</h6>
+                  <Link to={urlRedirect + id} className="text-decoration-none">
+                  {/* <button className="productListEdit">Edit</button> */}
+                    <h4 class="card-caption mb-4 url-name">{title}</h4>
+                  </Link>
+                  <p class="card-description">{information}</p>
+              </div>
+          </div>
+      </div>
 
   );
 };

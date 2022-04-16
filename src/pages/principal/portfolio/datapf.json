@@ -1,0 +1,38 @@
+const datapf =[
+    {
+        Nombre: "GESTION_COLEGIAL_ADM",
+        Url: "https://i.ibb.co/khtxjS2/Gestion-Colegial-Web-capture.jpg",
+        Categoria: "Desarrollo Web",
+        SubCategoria: "CSharp"
+    },
+    {
+        Nombre: "PetsHome",
+        Url: "https://i.ibb.co/vJVT1Nx/PetsHome.jpg",
+        Categoria: "Desarrollo Web",
+        SubCategoria: "CSharp"
+    },
+    {
+        Nombre: "PIZZADELY",
+        Url: "https://i.ibb.co/G9C4kJs/PIZZADELY.jpg",
+        Categoria: "Desarrollo Web",
+        SubCategoria: "HTML"
+    },
+    {
+        Nombre: "Atardecer en faro",
+        Url: "https://i.ibb.co/HqcKFBQ/Ilustracion-4.jpg",
+        Categoria: "Diseño Creativo",
+        SubCategoria: "Ilustrativo"
+    },
+    {
+        Nombre: "Tarjeta de nutricionista",
+        Url: "https://i.ibb.co/dMczsPB/Tarjeta-2.jpg",
+        Categoria: "Diseño Creativo",
+        SubCategoria: "Tarjeta"
+    },
+    {
+        Nombre: "s",
+        Url: "as",
+        Categoria: "Diseño Creativo",
+        SubCategoria: "ad"
+    },
+]

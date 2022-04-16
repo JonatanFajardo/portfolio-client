@@ -44,7 +44,7 @@ const About = () => {
               </div>
               <div className="col-sm-4">
                 <div className="fact-item">
-                  <h4 className="fs-1 fw-bold font-color-red">90</h4>
+                  <h4 className="fs-1 fw-bold font-color-red">10</h4>
                   <p className="text-muted">Ilustraciones Graficas</p>
                 </div>
               </div>
