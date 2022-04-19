@@ -46,10 +46,10 @@ const desarrolloWeb = () => {
       {/* <!-- wellcome section start --> */}
 
       {/* <!-- description section start --> */}
-      <section class="description gray-100">
+      <section class="description gray-100 pt-5">
         <div class="container">
           <div class="row mc">
-            <div class="col-sm-12 col-md-6 text-center">
+            <div class="col-sm-12 col-md-4 text-center">
               <img
                 alt="cargando..!"
                 id="image-description"
@@ -58,9 +58,9 @@ const desarrolloWeb = () => {
               />
             </div>
 
-            <div class="col-sm-12 col-md-6  ">
+            <div class="col-sm-12 col-md-8  ">
               <div class="container">
-                <h3>Desarrollo web</h3>
+                {/* <h3>Desarrollo web</h3> */}
                 <p>
                   Especializado en el Diseño y Desarrollo Web Back-End.
                   Maquetando bajo los estándares de la W3C que proporcionan una
@@ -73,7 +73,7 @@ const desarrolloWeb = () => {
             </div>
           </div>
         </div>
-          <div class="waves z-index mt-0 gray-100">
+          <div class="waves z-index mt-0 gray-100 mt-5">
             <img class="waves-item" src={FootAbaut} alt="" />
           </div>
       </section>

@@ -222,7 +222,7 @@ const Resumen = () => {
                     style={{ fill: "#F3F6F9" }}
                   ></path>
                 </svg> */}
-            <img src={WavesServices}/>
+            <img src={WavesServices} />
           </div>
         </div>
       </section>
@@ -283,10 +283,9 @@ const Resumen = () => {
                 <div className="card">
                   <div className="card-body">
                     <h5 className="card-title">INTAE</h5>
-
-                    <h6 className="card-subtitle">
-                      <a href="">link to website</a>{" "}
-                    </h6>
+                      <p className="text-muted fw-normal m-0">
+                        Instituto Tecnologico De Administracion De Empresas
+                      </p>{" "}
                     <p className="card-text text-muted">2014 - 2019</p>
                   </div>
                 </div>
@@ -301,12 +300,10 @@ const Resumen = () => {
                 <h3 className="education-date font-color-red">2021</h3>
                 <div className="card">
                   <div className="card-body">
-                    <h5 className="card-title">Academia Programadores</h5>
-
-                    <h6 className="card-subtitle">
-                      {" "}
-                      <a href="">link to website</a>{" "}
-                    </h6>
+                    <h5 className="card-title">AHM</h5>
+                    <p className="text-muted fw-normal m-0">
+                      Academia Programadores
+                    </p>{" "}
                     <p className="card-text text-muted">2020 - 2021</p>
                   </div>
                 </div>
@@ -357,7 +354,7 @@ const Resumen = () => {
                   Horas,
                 }) => (
                   <div className="isotope-item">
-                    <div className="col">
+                    <div className="col h-100">
                       <div className="card h-100">
                         <HorizontalCards
                           title={Nombre}

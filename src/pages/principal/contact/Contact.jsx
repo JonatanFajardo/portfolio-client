@@ -23,7 +23,8 @@ const Contact = () => {
                       </div>
                       <div class="text ms-3">
                          <h3 class="fs-5">Correo</h3>
-                         <p class="text-muted">jonatanabimelecfajardo@gmail.com</p>
+                         <a class="text-muted text-decoration-none" href='mailto:jonatanabimelecfajardo@gmail.com'>Jonatanabimelecfajardo@gmail.com</a>
+                         <p ></p>
                       </div>
                    </div>
                    <div class="contact-item d-flex mb-3 gray-100 p-3 rounded-3">

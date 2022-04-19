@@ -32,7 +32,6 @@ const About = () => {
                   target="_blank"
                 > AHM </a> 
                 siendo esta la cuarta generacion y en la cual me especialize en Desarrollo de software.
-
               </p>
             </div>
             <div className="row text-center text-uppercase my-3">
@@ -55,7 +54,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="row">
+            <div className="row mb-3">
               <div className="col-lg-12 d-flex align-items-center">
                 <a href="#" className="btn btn-danger px-3 bg-red me-5">
                   Download CV

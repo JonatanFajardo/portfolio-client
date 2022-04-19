@@ -21,30 +21,30 @@ const Service = () => {
            </div>
            <div class="row text-center">
                <div class="col-md-6 col-lg-6 mb-4">
+                           <Link to="DesarrolloWeb"  className='font-color-red text-decoration-none'>
                    <div class="service-item shadow-sm p-4 rounded bg-white">
                        <div class="icon my-3 font-color-red fs-2">
                        <FontAwesomeIcon icon={faCode} />
                        </div>
                        <h3 class="fs-5 py-2">
-                           <Link to="DesarrolloWeb"  className='font-color-red text-decoration-none'>
                                 Desarrollo Web
-                           </Link>
                         </h3>
                        <p class="text-muted">Realiza tu pagina web o aplicacion desktop.</p>
                    </div>
+                           </Link>
                </div>
                <div class="col-md-6 col-lg-6 mb-4">
+                           <Link to="DisenoCreativo" className='font-color-red text-decoration-none'>
                    <div class="service-item shadow-sm p-4 rounded bg-white">
                        <div class="icon my-3 font-color-red fs-2">
                        <FontAwesomeIcon icon={faBezierCurve} />
                        </div>
                        <h3 class="fs-5 py-2">
-                           <Link to="DisenoCreativo" className='font-color-red text-decoration-none'>
                                 Diseño Creativo
-                           </Link>
                         </h3>
-                       <p class="text-muted">Crea tu logo profesional o tu anuncion publicitario.</p>
+                       <p class="text-muted">Crea tu logo profesional o tu anuncio publicitario.</p>
                    </div>
+                           </Link>
                </div>
            </div>
        </div>

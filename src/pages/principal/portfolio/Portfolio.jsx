@@ -36,7 +36,7 @@ const datapf =[
        Nombre: "Hamburguesa sobre mesa",
        Url: "https://i.ibb.co/xSQBFzs/Publicida-1.jpg",
        Categoria: "Diseño Creativo",
-       SubCategoria: "Publicitaria"
+       SubCategoria: "Publicitario"
    },
 ]
 const Portfolio = () => {
