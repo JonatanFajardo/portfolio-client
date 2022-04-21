@@ -30,7 +30,7 @@ const data = [
   },
   {
       degra_Id:"6",
-      degra_Nombre:"Tarjete para taxista",
+      degra_Nombre:"Tarjeta para taxista",
       degra_Imagen: "https://i.ibb.co/dMczsPB/Tarjeta-2.jpg",
       degra_Categoria: "Tarjeta"
   },

@@ -86,10 +86,10 @@ const disenoCreativo = () => {
           <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
               <p class="text-light fs-5">
-                Echale un vistazo a mi apartado de desarrollador
+                Échale un vistazo a mi apartado de desarrollador
               </p>
               <h2 class="fs-1 text-white mb-4">
-                No esperes mas para crear tu pagina o desktop
+                No esperes más para crear tu página o desktop
               </h2>
               <Link to="/DesarrolloWeb" class="btn btn-outline-light">
                 Hacerlo
