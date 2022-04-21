@@ -11,7 +11,7 @@ const About = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="section-title text-center">
-              <h2 className="fw-bold mb-5">Sobre mis</h2>
+              <h2 className="fw-bold mb-5">Sobre mi</h2>
             </div>
           </div>
         </div>
@@ -25,13 +25,13 @@ const About = () => {
                 estudio intensamente por cuenta propia mucho de las áreas que esta implica, 
                 soy un multidisciplinario que actualmente realiza proyectos de Escritorio, 
                 Desarrollo web y Diseño Gráfico por otro lado he incursionado en el estudio de 
-                redes y ciberseguridad. Tambien fui parte del proceso educativo de la 
+                redes y ciberseguridad. También fui parte del proceso educativo de la
                 <a
                   className="link font-color-red text-decoration-none"
                   href="http://www.ahm-honduras.com/?p=4609"
                   target="_blank"
                 > AHM </a> 
-                siendo esta la cuarta generacion y en la cual me especialize en Desarrollo de software.
+                siendo esta la cuarta generación y en la cual me Especialicé en Desarrollo de software.
               </p>
             </div>
             <div className="row text-center text-uppercase my-3">
@@ -44,13 +44,13 @@ const About = () => {
               <div className="col-sm-4">
                 <div className="fact-item">
                   <h4 className="fs-1 fw-bold font-color-red">10</h4>
-                  <p className="text-muted">Ilustraciones Graficas</p>
+                  <p className="text-muted">Ilustraciones Gráficas</p>
                 </div>
               </div>
               <div className="col-sm-4">
                 <div className="fact-item">
                   <h4 className="fs-1 fw-bold font-color-red">2</h4>
-                  <p className="text-muted">Positive Reviews</p>
+                  <p className="text-muted">Servicios</p>
                 </div>
               </div>
             </div>
