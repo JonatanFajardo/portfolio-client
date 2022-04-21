@@ -1,6 +1,6 @@
 import Principal from "./pages/principal/Principal";
 import Item from "./pages/desarrollo-web/item/Item";
-import Resumen from "./pages/resumen/Resumen";
+import SobreMi from "./pages/sobreMi/SobreMi";
 
 import $ from "jquery";
 
@@ -18,7 +18,7 @@ const App = () => {
           <Route path="/" element={<Principal />}></Route>
           <Route path="/DesarrolloWeb" element={<DesarrolloWeb />}></Route>
           <Route path="/DisenoCreativo" element={<DisenoCreativo />}></Route>
-          <Route path="/Resumen" element={<Resumen />}></Route>
+          <Route path="/SobreMi" element={<SobreMi />}></Route>
 
           <Route path="/DesarrolloWeb/Item/:id" element={<Item />}></Route>
         </Routes>

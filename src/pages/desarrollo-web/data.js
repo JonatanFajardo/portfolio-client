@@ -18,8 +18,8 @@ const desarrolloweb = [
       tablas:"No Aplica",
       procedimientos:"No Aplica"
     },
-    deweb_Repositorio:"No Aplica",
-    deweb_Modelo:"https://github.com/JonatanFajardo/GESTION_COLEGIAL_ADM/tree/PREVIAFUSIONBETA",
+    deweb_Repositorio:"https://github.com/JonatanFajardo/GESTION_COLEGIAL_ADM",
+    deweb_Modelo:"",
     deweb_Nota:"No Aplica",
     deweb_ExtraLink:"No Aplica",
     deweb_Estado:"Activo"
@@ -86,7 +86,7 @@ const desarrolloweb = [
       tablas:"40",
       procedimientos:"356"
     },
-    deweb_Repositorio:"No Aplica",
+    deweb_Repositorio:"",
     deweb_Modelo:"No Aplica",
     deweb_Nota:"No Aplica",
     deweb_ExtraLink:"No Aplica",

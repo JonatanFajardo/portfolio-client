@@ -11,7 +11,7 @@ const About = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="section-title text-center">
-              <h2 className="fw-bold mb-5">Sobre mi</h2>
+              <h2 className="fw-bold mb-5">Sobre mis</h2>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@ const About = () => {
               </div>
               <div className="col-sm-4">
                 <div className="fact-item">
-                  <h4 className="fs-1 fw-bold font-color-red">95</h4>
+                  <h4 className="fs-1 fw-bold font-color-red">2</h4>
                   <p className="text-muted">Positive Reviews</p>
                 </div>
               </div>

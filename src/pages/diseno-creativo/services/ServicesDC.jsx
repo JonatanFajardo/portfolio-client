@@ -8,7 +8,7 @@ const data = [
       degra_Id:"1",
       degra_Nombre:"Corona virus",
       degra_Imagen: "https://i.ibb.co/q1Tdr6q/Ilustracion-1.jpg",
-      degra_Categoria: "Ilustrativa"
+      degra_Categoria: "Ilustrativo"
   },
   {
       degra_Id:"2",
@@ -26,7 +26,7 @@ const data = [
       degra_Id:"3",
       degra_Nombre:"Atardecer en faro",
       degra_Imagen: "https://i.ibb.co/HqcKFBQ/Ilustracion-4.jpg",
-      degra_Categoria: "Ilustrativa"
+      degra_Categoria: "Ilustrativo"
   },
   {
       degra_Id:"6",
@@ -44,13 +44,13 @@ const data = [
       degra_Id:"7",
       degra_Nombre:"Festejo de cumpleaños",
       degra_Imagen: "https://i.ibb.co/LRcx9KB/Ilustracion-2.jpg",
-      degra_Categoria: "Ilustrativa"
+      degra_Categoria: "Ilustrativo"
   },
   {
       degra_Id:"8",
-      degra_Nombre:"",
+      degra_Nombre:"Castaño",
       degra_Imagen: "https://i.ibb.co/BCXy5pY/Ilustracion-3.jpg",
-      degra_Categoria: "Ilustrativa"
+      degra_Categoria: "Ilustrativo"
   },
   {
       degra_Id:"9",
@@ -71,7 +71,7 @@ const ServicesDC = () => {
   return (
     
    <section className="container-full py-5 plaincard">
-      <div class=" ">
+      <div class="">
       <div class="container">
       <div class="row justify-content-center">
             <div class="col-12">

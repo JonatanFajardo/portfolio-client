@@ -49,7 +49,7 @@ const desarrolloWeb = () => {
       <section class="description gray-100 pt-5">
         <div class="container">
           <div class="row mc">
-            <div class="col-sm-12 col-md-4 text-center">
+            <div class="col-sm-12 col-md-6 text-center">
               <img
                 alt="cargando..!"
                 id="image-description"
@@ -58,13 +58,13 @@ const desarrolloWeb = () => {
               />
             </div>
 
-            <div class="col-sm-12 col-md-8  ">
+            <div class="col-sm-12 col-md-6  ">
               <div class="container">
-                {/* <h3>Desarrollo web</h3> */}
+                <h3>Sobre esto</h3>
                 <p>
                   Especializado en el Diseño y Desarrollo Web Back-End.
                   Maquetando bajo los estándares de la W3C que proporcionan una
-                  mejor estructura de la pagina y sobre todo siempre mejorando
+                  mejor estructura de la página y sobre todo siempre mejorando
                   la User Experience y User Interface (UX-UI) para que captes la
                   atención de tu cliente con una interfaz bonita y una
                   experiencia agradable ya sea desde una laptop o un smartphone.

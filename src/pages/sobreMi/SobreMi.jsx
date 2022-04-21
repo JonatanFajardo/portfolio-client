@@ -1,12 +1,13 @@
 import React from "react";
-import "./resumen.css";
+import "./sobremi.css";
 import WavesServices from "../../assets/img/WavesServicesvg.svg";
 import FootAbaut from "../../assets/img/footAbaut.svg";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import HorizontalCards from "../../components/horizontalCards/horizontalCards";
-import image from "../../assets/img/Certificate.png";
+import image from "../../assets/img/Trabajando en Escritorio.svg";
+import imgCertificate from "../../assets/img/Certificate.png";
 
 const dataResumen = [
   {
@@ -199,7 +200,7 @@ const Resumen = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col text-center">
-              <h1 className="text-uppercase fw-bold">Resumen</h1>
+              <h1 className="text-uppercase fw-bold">Sobre Mi</h1>
               <p>
                 <Link to="/" className="font-color-red">
                   Home
@@ -236,21 +237,27 @@ const Resumen = () => {
               <img
                 alt="cargando..!"
                 id="image-description"
-                src={Image}
+                src={image}
                 className="img-fluid border-radius "
               />
             </div>
 
             <div className="col-sm-12 col-md-6  ">
               <div className="container">
-                <h3>Desarrollo web</h3>
+                <h3>Extracto profesional</h3>
                 <p>
-                  Especializado en el Diseño y Desarrollo Web Back-End.
-                  Maquetando bajo los estándares de la W3C que proporcionan una
-                  mejor estructura de la pagina y sobre todo siempre mejorando
-                  la User Experience y User Interface (UX-UI) para que captes la
-                  atención de tu cliente con una interfaz bonita y una
-                  experiencia agradable ya sea desde una laptop o un smartphone.
+                Hola, soy Jonatan Fajardo. 
+                Hace más de 3 años inicié en el mundo de la tecnología, y desde entonces 
+                estudio intensamente por cuenta propia mucho de las áreas que esta implica, 
+                soy un multidisciplinario que actualmente realiza proyectos de Escritorio, 
+                Desarrollo web y Diseño Gráfico por otro lado he incursionado en el estudio de 
+                redes y ciberseguridad. Tambien fui parte del proceso educativo de la 
+                <a
+                  className="link font-color-red text-decoration-none"
+                  href="http://www.ahm-honduras.com/?p=4609"
+                  target="_blank"
+                > AHM </a> 
+                siendo esta la cuarta generacion y en la cual me especialize en Desarrollo de software.
                 </p>
               </div>
             </div>
@@ -274,13 +281,13 @@ const Resumen = () => {
             </div>
 
             <div className="col-sx-12 col-lg-6 ">
-              <article className="education-item">
+              <article className="education-item h-100">
                 <FontAwesomeIcon
                   icon={faGraduationCap}
                   className="education-icon font-color-red"
                 />
                 <h3 className="education-date font-color-red">2019</h3>
-                <div className="card">
+                <div className="card h-100">
                   <div className="card-body">
                     <h5 className="card-title">INTAE</h5>
                       <p className="text-muted fw-normal m-0">
@@ -292,13 +299,13 @@ const Resumen = () => {
               </article>
             </div>
             <div className="col-sx-12 col-lg-6 ">
-              <article className="education-item">
+              <article className="education-item h-100">
                 <FontAwesomeIcon
                   icon={faGraduationCap}
                   className="education-icon font-color-red"
                 />
                 <h3 className="education-date font-color-red">2021</h3>
-                <div className="card">
+                <div className="card h-100">
                   <div className="card-body">
                     <h5 className="card-title">AHM</h5>
                     <p className="text-muted fw-normal m-0">
@@ -358,7 +365,7 @@ const Resumen = () => {
                       <div className="card h-100">
                         <HorizontalCards
                           title={Nombre}
-                          imagenSource={image}
+                          imagenSource={imgCertificate}
                           institución={Institución}
                           instructor={Instructor}
                           categoria={Categoria}

@@ -15,7 +15,8 @@ const Service = () => {
           <div class="row justify-content-center">
                <div class="col-lg-8">
                    <div class="section-title text-center">
-                       <h2 class="fw-bold mb-5">Servicios</h2>
+                       <h2 class="fw-bold">Servicios</h2>
+                       <p class="text-muted mb-5">Dale clic al servicio que te interese desarrollar</p>
                    </div>
                </div>
            </div>
@@ -29,7 +30,7 @@ const Service = () => {
                        <h3 class="fs-5 py-2">
                                 Desarrollo Web
                         </h3>
-                       <p class="text-muted">Realiza tu pagina web o aplicacion desktop.</p>
+                       <p class="text-muted">Realiza tu página web o aplicación desktop.</p>
                    </div>
                            </Link>
                </div>
