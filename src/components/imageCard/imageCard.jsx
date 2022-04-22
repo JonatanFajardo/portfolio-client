@@ -1,12 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './imageCard.css'
+import "./imageCard.css";
 // const routeChange = () =>{
 //   let path = `newPath`;
 //   navigate(path);
 // }
 
-const imageCard = ({id, title, information, imagenSource, nameRedirect, urlRedirect, categoria}) => {
+const imageCard = ({
+  id,
+  title,
+  information,
+  imagenSource,
+  nameRedirect,
+  urlRedirect,
+  categoria,
+}) => {
   return (
     // const [images, setImages] useState([])
     // <div class="col-md-6 col-lg-4">
@@ -20,23 +28,31 @@ const imageCard = ({id, title, information, imagenSource, nameRedirect, urlRedir
     //     </div>
     // </div>
     // setImages(imagenSource);
-      <div class="col-sm-12 col-md-6 col-lg-4 mt-5 mb-3 ">
-          <div class="card h-100 card-blog">
-              <div class="card-image ">
-                  <img class="img img-raised" src={imagenSource} alt={title}/>
-                  <div class="ripple-cont"></div>
-              </div>
-              <div class="table ">
-                  <h6 class="category">{categoria.replace(/ /g, "")}</h6>
-                  <Link to={urlRedirect + id} className="text-decoration-none">
-                  {/* <button className="productListEdit">Edit</button> */}
-                    <h4 class="card-caption mb-4 url-name">{title}</h4>
-                  </Link>
-                  <p class="card-description">{information}</p>
-              </div>
-          </div>
+    <div class="col-sm-12 col-md-6 col-lg-4 mt-5 mb-3 ">
+      <div class="card h-100 card-blog">
+        <div class="card-image ">
+          <img class="img img-raised" src={imagenSource} alt={title} />
+          <div class="ripple-cont"></div>
+        </div>
+        <div class="card-body ">
+          <h6 class="category">{categoria.replace(/ /g, "")}</h6>
+          
+            {/* <button className="productListEdit">Edit</button> */}
+            <h4 class="card-caption mb-4 url-name">{title}</h4>
+          <p class="card-description">{information}</p>
+        </div>
+        <div class="p-2 ">
+        <Link to={urlRedirect + id} className="btn btn-red w-100">
+          Detalle
+        </Link>
+        </div>
+        {/* <div className="row vh-100">
+                  <div className="col d-flex align-items-end">
+                    
+                  </div>
+              </div> */}
       </div>
-
+    </div>
   );
 };
 // imageCard.protoType={

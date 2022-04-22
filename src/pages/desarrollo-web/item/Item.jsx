@@ -35,6 +35,8 @@ const Item = () => {
             </h3>
             <div className="flex-content">
               <ul className="list-style-style-none">
+              <p>{dataSpecific.deweb_Descripcion}</p>
+
                 {/* <li>
                   <strong title="Id">Id:</strong>
                   {dataSpecific.deweb_Id}
@@ -44,10 +46,6 @@ const Item = () => {
                     Nombre de Desarrollo:
                   </strong>
                   {dataSpecific.deweb_NombreDesarrollo}
-                </li>
-                <li>
-                  <strong title="Imagen">Imagen:</strong>
-                  {dataSpecific.deweb_Imagen}
                 </li>
                 <li>
                   <strong title="Portal">Portal:</strong>
@@ -77,25 +75,24 @@ const Item = () => {
                         <li><strong title="Shipping">Shipping:</strong> Free</li> */}
               </ul>
 
-              <p>{dataSpecific.deweb_Descripcion}</p>
               <footer>
                 <p>
                   <a
-                    class="bt-love"
+                    class="text-decoration-none text-muted"
                     title="Love"
                     href={dataSpecific.deweb_Modelo}
                   >
                     Live Demo
                   </a>
                   <a
-                    class="bt-share"
+                    class="text-decoration-none text-muted"
                     title="Share"
                     href={dataSpecific.deweb_Repositorio}
                   >
                     Github
                   </a>
                   <a
-                    class="bt-comment"
+                    class="text-decoration-none text-muted"
                     title="Comment"
                     href={dataSpecific.deweb_BaseDatos}
                   >
