@@ -81,6 +81,7 @@ const Item = () => {
                     class="text-decoration-none text-muted"
                     title="Love"
                     href={dataSpecific.deweb_Modelo}
+                    target="_blank"
                   >
                     Live Demo
                   </a>
@@ -88,6 +89,7 @@ const Item = () => {
                     class="text-decoration-none text-muted"
                     title="Share"
                     href={dataSpecific.deweb_Repositorio}
+                    target="_blank"
                   >
                     Github
                   </a>
@@ -95,6 +97,7 @@ const Item = () => {
                     class="text-decoration-none text-muted"
                     title="Comment"
                     href={dataSpecific.deweb_BaseDatos}
+                    target="_blank"
                   >
                     Base de Datos
                   </a>

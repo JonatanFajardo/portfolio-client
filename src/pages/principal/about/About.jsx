@@ -56,8 +56,8 @@ const About = () => {
             </div>
             <div className="row mb-3">
               <div className="col-lg-12 d-flex align-items-center">
-                <a href="#" className="btn btn-danger px-3 bg-red me-5">
-                  Download CV
+                <a href="https://drive.google.com/file/d/1VQTXsbNK_UsbOx3LSeIYrJNCBfNx-ffS/view?usp=sharing" className="btn btn-danger px-3 bg-red me-5" target="_blank">
+                  Descargar CV
                 </a>
                 {/* <div className="social-links">
                   <a href="#" className="text-dark me-2">
