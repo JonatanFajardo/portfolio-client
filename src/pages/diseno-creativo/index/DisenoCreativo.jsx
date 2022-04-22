@@ -13,12 +13,12 @@ const disenoCreativo = () => {
         <div class="container-fluid">
           <div class="row">
             <div class="col text-center">
-              <h1 class="text-uppercase fw-bold">Diseño Gráfico</h1>
+              <h1 class="text-uppercase fw-bold">Diseño Creativo</h1>
               <p>
                 <Link to="/" className="font-color-red">
                   Home
                 </Link>{" "}
-                / Desarrollo web
+                / Diseño Creativo
               </p>
             </div>
           </div>
