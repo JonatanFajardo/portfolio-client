@@ -59,10 +59,16 @@ const data = [
       degra_Categoria: "Tarjeta"
   },
   {
-      degra_Id:"10",
-      degra_Nombre:"vaso de licuado",
-      degra_Imagen: "https://i.ibb.co/GH2m6jb/Publicida-3.jpg",
-      degra_Categoria: "Publicitario"
+    degra_Id:"10",
+    degra_Nombre:"vaso de licuado",
+    degra_Imagen: "https://i.ibb.co/GH2m6jb/Publicida-3.jpg",
+    degra_Categoria: "Publicitario"
+  },
+  {
+    degra_Id:"11",
+    degra_Nombre:"Instahelp logo",
+    degra_Imagen: "https://i.ibb.co/yQk7m2r/mockup.jpg",
+    degra_Categoria: "Logo"
   }
   
 ]

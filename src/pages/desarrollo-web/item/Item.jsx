@@ -13,7 +13,6 @@ function DataFind(identifier) {
 const Item = () => {
   const { id } = useParams();
   const dataSpecific = DataFind(id);
-  console.log(dataSpecific);
   return (
     <div id="item" className="container vh-100">
       <div className="card">
