@@ -40,7 +40,7 @@ const Service = () => {
           </div>
           <div class="col-md-6 col-lg-6 mb-4">
             <Link
-              to="DiseñoCreativo"
+              to="DisenoCreativo"
               className="font-color-red text-decoration-none"
             >
               <div class="service-item shadow-sm p-4 rounded bg-white">

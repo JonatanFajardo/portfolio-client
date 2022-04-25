@@ -69,6 +69,12 @@ const data = [
     degra_Nombre:"Instahelp logo",
     degra_Imagen: "https://i.ibb.co/yQk7m2r/mockup.jpg",
     degra_Categoria: "Logo"
+  },
+  {
+    degra_Id:"12",
+    degra_Nombre:"Figuras Geometricas",
+    degra_Imagen: "https://i.ibb.co/TbhpVg8/mockup.jpg",
+    degra_Categoria: "Icono"
   }
   
 ]
@@ -78,7 +84,7 @@ const ServicesDC = () => {
     
    <section className="container-full py-5 plaincard">
       <div class="">
-      <div class="container">
+      <div class="mx-4">
       <div class="row justify-content-center">
             <div class="col-12">
               <div class="section-title text-center">

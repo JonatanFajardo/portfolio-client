@@ -155,7 +155,7 @@ var desarrolloweb = [{
     procedimientos: "No Aplica"
   },
   deweb_Repositorio: "https://github.com/JonatanFajardo/ASIANFOOD",
-  deweb_Modelo: "No Aplica",
+  deweb_Modelo: "https://jonatanfajardo.github.io/ASIANFOOD/",
   deweb_Nota: "No Aplica",
   deweb_ExtraLink: "No Aplica",
   deweb_Estado: "Activo"
@@ -177,7 +177,7 @@ var desarrolloweb = [{
     procedimientos: "No Aplica"
   },
   deweb_Repositorio: "https://github.com/JonatanFajardo/PIZZADELY",
-  deweb_Modelo: "",
+  deweb_Modelo: "https://jonatanfajardo.github.io/PIZZADELY/",
   deweb_Nota: "No Aplica",
   deweb_ExtraLink: "No Aplica",
   deweb_Estado: "Activo"

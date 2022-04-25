@@ -7,15 +7,17 @@ import "./imageCard.css";
 // }
 
 const imageCard = ({
-  id,
+  id = '',
   title,
-  information,
-  imagenSource,
-  nameRedirect,
-  urlRedirect,
-  categoria,
+  information = '',
+  imagenSource= '',
+  nameRedirect = '',
+  urlRedirect = '',
+  categoria = '',
 }) => {
+  console.log(imagenSource)
   return (
+    
     // const [images, setImages] useState([])
     // <div class="col-md-6 col-lg-4">
     //     <div class="portfolio-item">
@@ -36,7 +38,6 @@ const imageCard = ({
         </div>
         <div class="card-body ">
           <h6 class="category">{categoria.replace(/ /g, "")}</h6>
-          
             {/* <button className="productListEdit">Edit</button> */}
             <h4 class="card-caption mb-4 url-name">{title}</h4>
           <p class="card-description">{information}</p>

@@ -1,16 +1,16 @@
-#item .card {
+#item {
   /* padding: 3.2rem 3.2rem 2.4rem; */
 }
 
-#item .card .flex-content ul {
+#item .flex-content ul {
   margin: 0 0 1.2rem;
   padding: 0;
 }
-#item .card .flex-content li strong {
+#item .flex-content li strong {
   width: 119px;
   display: inline-block;
 }
-#item .card .flex-content ul > li {
+#item .flex-content ul > li {
     margin: 0;
     padding: 0.4rem 0;
   list-style: none;
@@ -19,14 +19,19 @@
 
 
 
+
+#item img {
+  border-radius: 15px;
+}
+
 /*== Card - Footer === */
 
-#item .card footer p {
+#item footer p {
     border-top: 1px solid #eee;
   }
   
 
-#item .card footer p {
+#item footer p {
     display: -webkit-flex;
     display: flex;
     justify-content: space-between;
@@ -36,11 +41,11 @@
 
 
 
-#item .card a.bt-love {
+#item a.bt-love {
     background-position: 0 7px;
   }
   
-#item .card a.bt-love:hover {
+#item a.bt-love:hover {
     color: #f34;
     background-position: 0 -25px;
   }
