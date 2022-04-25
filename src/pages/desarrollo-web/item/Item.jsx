@@ -27,12 +27,10 @@ function RamdonListUnique(cantidad = 0, max) {
   return numbers;
 }
 const Item = () => {
+  //añadiendo datos aleatorios
   const listDataImg = [];
-  // console.log(RamdonListUnique(4,8))
   const arrayindice = RamdonListUnique(4, 7);
   arrayindice.map(function (x) {
-    console.log(x);
-    console.log(Data[parseInt(x)]);
     listDataImg.push(Data[parseInt(x)]);
   });
 

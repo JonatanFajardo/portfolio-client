@@ -7,11 +7,9 @@ const plaincard = ({title, imagenSource, categoria, subcategoria = ''}) => {
   let infoCategoricard;
   if (subcategoria == ""){
     infoCategoricard = <p class="mb-0 font-color-red mt-2 text-decoration-none">{categoria}</p>
-    console.log('sa');
     
   }else{
     infoCategoricard = <p class="mb-0 font-color-red mt-2"><a href={categoria.replace(/ /g, "").replace("ñ", "n")} class="font-color-red">{categoria}</a>, {subcategoria}</p>
-    console.log('sss');
   }
 
   return (
