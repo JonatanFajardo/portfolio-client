@@ -64,50 +64,95 @@ const Item = () => {
             </div>
             <div className="col-md-12 col-lg-12 p-4 font-color-gra ">
               <div className="flex-content">
-                <p className="fs-4">{dataSpecific.deweb_Descripcion}</p>
-                <ul className="list-style-style-none">
-                  {/* <li>
+                <p className="fs-4 my-4">{dataSpecific.deweb_Descripcion}</p>
+                {/* Informacion extra */}
+                <div className="row">
+                  {/* Card */}
+                  <div className="col-md-12 col-lg-6 pb-3">
+                    <div className="card shadow-sm">
+                      <div className="card-header">Detalles</div>
+                      <div className="card-body">
+                        <ul className="list-style-style-none">
+                          {/* <li>
                   <strong title="Id">Id:</strong>
                   {dataSpecific.deweb_Id}
                 </li> */}
-                  <li>
-                    <strong title="NombreDesarrollo">
-                      Nombre de Desarrollo:
-                    </strong>
-                    {dataSpecific.deweb_NombreDesarrollo}
-                  </li>
-                  <li>
-                    <strong title="Portal">Portal:</strong>
-                    {dataSpecific.deweb_Portal}
-                  </li>
-                  <li>
-                    <strong title="Participacion">Participacion:</strong>
-                    {dataSpecific.deweb_Participacion}
-                  </li>
-                  <li>
-                    <strong title="Categoria">Categoria:</strong>
-                    {dataSpecific.deweb_Categoria}
-                  </li>
-                  <li>
-                    <strong title="Estado">Estado:</strong>
-                    {dataSpecific.deweb_Estado}
-                  </li>
-                  <li>
-                    <strong title="Nota">Nota:</strong>
-                    {dataSpecific.deweb_Nota}
-                  </li>
-                  <li>
-                    <strong title="ExtraLink">ExtraLink:</strong>
-                    {dataSpecific.deweb_ExtraLink}
-                  </li>
-                  {/* <li><strong title="availability">Color:</strong> Red/Orange/Black/Blue</li>
+                          <li>
+                            <strong title="NombreDesarrollo">
+                              Nombre de Desarrollo:
+                            </strong>
+                            {dataSpecific.deweb_NombreDesarrollo}
+                          </li>
+                          <li>
+                            <strong title="Portal">Portal:</strong>
+                            {dataSpecific.deweb_Portal}
+                          </li>
+                          <li>
+                            <strong title="Participacion">
+                              Participacion:
+                            </strong>
+                            {dataSpecific.deweb_Participacion}
+                          </li>
+                          <li>
+                            <strong title="Categoria">Categoria:</strong>
+                            {dataSpecific.deweb_Categoria}
+                          </li>
+                          <li>
+                            <strong title="Estado">Estado:</strong>
+                            {dataSpecific.deweb_Estado}
+                          </li>
+                          <li>
+                            <strong title="Nota">Nota:</strong>
+                            {dataSpecific.deweb_Nota}
+                          </li>
+                          <li>
+                            <strong title="ExtraLink">ExtraLink:</strong>
+                            {dataSpecific.deweb_ExtraLink}
+                          </li>
+                          {/* <li><strong title="availability">Color:</strong> Red/Orange/Black/Blue</li>
                     <li><strong title="Shipping">Shipping:</strong> Free</li> */}
-                </ul>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
 
-                <footer>
-                  <p>
+                  {/* Card */}
+                  <div className="col-md-12 col-lg-6 pb-3">
+                    <div className="card shadow-sm h-100">
+                      <div className="card-header">Base de datos</div>
+                      <div className="card-body">
+                        <ul className="list-style-style-none">
+                          {/* <li>
+                  <strong title="Id">Id:</strong>
+                  {dataSpecific.deweb_Id}
+                </li> */}
+                          <li>
+                            <strong title="Nombre">Nombre:</strong>
+                            {dataSpecific.deweb_BaseDatos.nombre}
+                          </li>
+                          <li>
+                            <strong title="Tablas">Tablas:</strong>
+                            {dataSpecific.deweb_BaseDatos.tablas}
+                          </li>
+                          <li>
+                            <strong title="Procedimientos">
+                              Procedimientos:
+                            </strong>
+                            {dataSpecific.deweb_BaseDatos.procedimientos}
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Links */}
+                <div className="row pb-3 align-items-end">
+                  <div className="col">
                     <a
-                      className="text-decoration-none text-muted"
+                      className="btn btn-primary btn-sm m-1 btn-Moody-Blue active"
+                      role="button"
+                      aria-pressed="true"
                       title="Love"
                       href={dataSpecific.deweb_Modelo}
                       target="_blank"
@@ -115,7 +160,9 @@ const Item = () => {
                       Live Demo
                     </a>
                     <a
-                      className="text-decoration-none text-muted"
+                      className="btn btn-primary btn-sm m-1 btn-Moody-Blue active"
+                      role="button"
+                      aria-pressed="true"
                       title="Share"
                       href={dataSpecific.deweb_Repositorio}
                       target="_blank"
@@ -123,15 +170,17 @@ const Item = () => {
                       Github
                     </a>
                     <a
-                      className="text-decoration-none text-muted"
+                      className="btn btn-primary btn-sm m-1 btn-Moody-Blue active"
+                      role="button"
+                      aria-pressed="true"
                       title="Comment"
                       href={dataSpecific.deweb_BaseDatos}
                       target="_blank"
                     >
                       Base de Datos
                     </a>
-                  </p>
-                </footer>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -155,7 +204,6 @@ const Item = () => {
         </div>
 
         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4 py-3">
-         
           {listDataImg.map(({ deweb_Id, deweb_Imagen }) => (
             <JustImageCard
               id={deweb_Id}
