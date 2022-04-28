@@ -69,29 +69,29 @@ const desarrolloweb = [
     deweb_ExtraLink:"No Aplica",
     deweb_Estado:"Activo"
 },
-// {
-//     deweb_Id:"4",
-//     deweb_Nombre:"InstaHelp",
-//     deweb_NombreDesarrollo:"AHM_INSTA_HELP_ADM",
-//     deweb_Descripcion:"Una mesa de ayuda es un sistema de tecnología que ayuda a los equipos de atención al cliente a recibir, administrar, organizar, automatizar, responder e informar sobre las preguntas o problemas de los clientes. Se utiliza para escalar el impacto de cada representante de soporte y soluciones para sus clientes. ",
-//     deweb_Imagen:"https://i.ibb.co/n71QtDT/INSTAHELP.jpg",
-//     deweb_Portal:"Administrativo",
-//     deweb_Participacion:"-Desarrollo de propuesta de logo *ganador*. -Equipo de diseño para el proyecto *admin* y *web* . -Participación en enquipo encargado de reportes. -Equipo encargado de Graficas. -CRUD de Departamentos.",
-//     deweb_Autor:{
-//       nombre:"Jonatan Fajardo"
-//     },
-//     deweb_Categoria: "CSharp",
-//     deweb_BaseDatos:{
-//       nombre:"AHM_INSTA_HELP_ADM",
-//       tablas:"40",
-//       procedimientos:"356"
-//     },
-//     deweb_Repositorio:"",
-//     deweb_Modelo:"No Aplica",
-//     deweb_Nota:"No Aplica",
-//     deweb_ExtraLink:"No Aplica",
-//     deweb_Estado:"Activo"
-// },
+{
+    deweb_Id:"4",
+    deweb_Nombre:"InstaHelp",
+    deweb_NombreDesarrollo:"AHM_INSTA_HELP_ADM",
+    deweb_Descripcion:"Una mesa de ayuda es un sistema de tecnología que ayuda a los equipos de atención al cliente a recibir, administrar, organizar, automatizar, responder e informar sobre las preguntas o problemas de los clientes. Se utiliza para escalar el impacto de cada representante de soporte y soluciones para sus clientes. ",
+    deweb_Imagen:"https://i.ibb.co/n71QtDT/INSTAHELP.jpg",
+    deweb_Portal:"Administrativo",
+    deweb_Participacion:"-Desarrollo de propuesta de logo *ganador*. -Equipo de diseño para el proyecto *admin* y *web* . -Participación en enquipo encargado de reportes. -Equipo encargado de Graficas. -CRUD de Departamentos.",
+    deweb_Autor:{
+      nombre:"Jonatan Fajardo"
+    },
+    deweb_Categoria: "CSharp",
+    deweb_BaseDatos:{
+      nombre:"AHM_INSTA_HELP_ADM",
+      tablas:"40",
+      procedimientos:"356"
+    },
+    deweb_Repositorio:"",
+    deweb_Modelo:"No Aplica",
+    deweb_Nota:"No Aplica",
+    deweb_ExtraLink:"No Aplica",
+    deweb_Estado:"Activo"
+},
 {
     deweb_Id:"5",
     deweb_Nombre:"PetsHome",
@@ -115,29 +115,29 @@ const desarrolloweb = [
     deweb_ExtraLink:"No Aplica",
     deweb_Estado:"Activo"
 },
-// {
-//     deweb_Id:"6",
-//     deweb_Nombre:"Promedical",
-//     deweb_NombreDesarrollo:"PROMEDICAL",
-//     deweb_Descripcion:"Proyecto API para portal administrativo de un sistema medico con arquitectura onion, uso de unit of work y patrón repositorio, con swagger implementado.",
-//     deweb_Imagen:"https://i.ibb.co/Fnrn3qy/Promedical-capture.png",
-//     deweb_Portal:"Administrativo",
-//     deweb_Participacion:"Completamente",
-//     deweb_Autor:{
-//       nombre:"Jonatan Fajardo",
-//     },
-//     deweb_Categoria: "CSharp",
-//     deweb_BaseDatos:{
-//       nombre:"MEDICALSYSTEM",
-//       tablas:"17",
-//       procedimientos:"76"
-//     },
-//     deweb_Repositorio:"https://github.com/JonatanFajardo/PROMEDICAL",
-//     deweb_Modelo:"No Aplica",
-//     deweb_Nota:"No Aplica",
-//     deweb_ExtraLink:"No Aplica",
-//     deweb_Estado:"Activo",
-// },
+{
+    deweb_Id:"6",
+    deweb_Nombre:"Promedical",
+    deweb_NombreDesarrollo:"PROMEDICAL",
+    deweb_Descripcion:"Proyecto API para portal administrativo de un sistema medico con arquitectura onion, uso de unit of work y patrón repositorio, con swagger implementado.",
+    deweb_Imagen:"https://i.ibb.co/Fnrn3qy/Promedical-capture.png",
+    deweb_Portal:"Administrativo",
+    deweb_Participacion:"Completamente",
+    deweb_Autor:{
+      nombre:"Jonatan Fajardo",
+    },
+    deweb_Categoria: "CSharp",
+    deweb_BaseDatos:{
+      nombre:"MEDICALSYSTEM",
+      tablas:"17",
+      procedimientos:"76"
+    },
+    deweb_Repositorio:"https://github.com/JonatanFajardo/PROMEDICAL",
+    deweb_Modelo:"No Aplica",
+    deweb_Nota:"No Aplica",
+    deweb_ExtraLink:"No Aplica",
+    deweb_Estado:"Activo",
+},
 {
   deweb_Id:"7",
   deweb_Nombre:"ASIANFOOD",
