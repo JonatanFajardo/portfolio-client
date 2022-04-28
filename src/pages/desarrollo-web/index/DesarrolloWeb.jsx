@@ -7,6 +7,7 @@ import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 import FootAbaut from "../../../assets/img/footAbaut.svg";
 import WavesServices from '../../../assets/img/WavesServicesvg.svg';
 import { Link } from "react-router-dom";
+
 const desarrolloWeb = () => {
   return (
     <>
