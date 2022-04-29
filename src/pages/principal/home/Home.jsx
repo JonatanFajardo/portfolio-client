@@ -1,5 +1,5 @@
 import React from 'react'
-import ProfileImage from '../../../assets/img/Profile.png'
+import ProfileImage from '../../../assets/img/Profile-comp.png'
 import WaveWellcome from '../../../assets/img/wavesWellcome2.svg'
 const Home = () => {
   return (
