@@ -13,7 +13,7 @@ const data = [
   {
       degra_Id:"2",
       degra_Nombre:"Combo de hamburguesa",
-      degra_Imagen: "https://i.ibb.co/J2j0qgf/Publicida-2.jpg",
+      degra_Imagen: "https://i.ibb.co/F7jVWz9/Publicida-2-mockup.jpg",
       degra_Categoria: "Publicitario"
   },
   {
@@ -25,7 +25,7 @@ const data = [
   {
       degra_Id:"3",
       degra_Nombre:"Atardecer en faro",
-      degra_Imagen: "https://i.ibb.co/HqcKFBQ/Ilustracion-4.jpg",
+      degra_Imagen: "https://i.ibb.co/GT6V9B5/Ilustracion-4-mockup.jpg",
       degra_Categoria: "Ilustrativo"
   },
   {
@@ -37,7 +37,7 @@ const data = [
   {
       degra_Id:"5",
       degra_Nombre:"Hamburguesa sobre mesa",
-      degra_Imagen: "https://i.ibb.co/xSQBFzs/Publicida-1.jpg",
+      degra_Imagen: "https://i.ibb.co/fXMj2Vq/Publicida-1-mockup.jpg",
       degra_Categoria: "Publicitario"
   },
   {
@@ -49,7 +49,7 @@ const data = [
   {
       degra_Id:"8",
       degra_Nombre:"Castaño",
-      degra_Imagen: "https://i.ibb.co/BCXy5pY/Ilustracion-3.jpg",
+      degra_Imagen: "https://i.ibb.co/C2S47yY/Ilustracion-3-mockup.jpg",
       degra_Categoria: "Ilustrativo"
   },
   {
