@@ -4,19 +4,19 @@ import PlainCard from "../../../components/plaincard/plaincard";
 const datapf =[
    {
        Nombre: "Gestión Colegial Web",
-       Url: "https://i.ibb.co/khtxjS2/Gestion-Colegial-Web-capture.jpg",
+       Url: "https://i.ibb.co/LSkQS3q/GESTION-COLEGIAL-ADM-MOCKUP.jpg",
        Categoria: "Desarrollo Web",
        SubCategoria: "CSharp"
    },
    {
        Nombre: "PetsHome",
-       Url: "https://i.ibb.co/vJVT1Nx/PetsHome.jpg",
+       Url: "https://i.ibb.co/0snqhG6/Pets-Home-MOCKUP.jpg",
        Categoria: "Desarrollo Web",
        SubCategoria: "CSharp"
    },
    {
        Nombre: "PIZZADELY",
-       Url: "https://i.ibb.co/G9C4kJs/PIZZADELY.jpg",
+       Url: "https://i.ibb.co/x7s53qR/PIZZADELY-MOCKUP.jpg",
        Categoria: "Desarrollo Web",
        SubCategoria: "HTML"
    },
