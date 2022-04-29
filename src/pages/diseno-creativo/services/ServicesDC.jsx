@@ -37,7 +37,7 @@ const data = [
   {
       degra_Id:"5",
       degra_Nombre:"Hamburguesa sobre mesa",
-      degra_Imagen: "https://i.ibb.co/fXMj2Vq/Publicida-1-mockup.jpg",
+      degra_Imagen: "https://i.ibb.co/GnwM3z0/Publicida-1-mockup.jpg",
       degra_Categoria: "Publicitario"
   },
   {
