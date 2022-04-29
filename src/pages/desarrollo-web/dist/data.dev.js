@@ -120,7 +120,7 @@ var desarrolloweb = [{
   deweb_Nombre: "Promedical",
   deweb_NombreDesarrollo: "PROMEDICAL",
   deweb_Descripcion: "Proyecto API para portal administrativo de un sistema medico con arquitectura onion, uso de unit of work y patrón repositorio, con swagger implementado.",
-  deweb_Imagen: "https://i.ibb.co/Fnrn3qy/Promedical-capture.png",
+  deweb_Imagen: "https://i.ibb.co/nCfTMPN/Promedical-Gif.gif",
   deweb_Portal: "Administrativo",
   deweb_Participacion: "Completamente",
   deweb_Autor: {
