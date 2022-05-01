@@ -14,12 +14,12 @@ const desarrolloweb = [
     },
     deweb_Categoria: "CSharp",
     deweb_BaseDatos:{
-      nombre:"No Aplica",
-      tablas:"No Aplica",
-      procedimientos:"No Aplica"
+      nombre:"Desde API",
+      tablas:"Desde API",
+      procedimientos:"Desde API"
     },
     deweb_Repositorio:"https://github.com/JonatanFajardo/GESTION_COLEGIAL_ADM",
-    deweb_Modelo:"",
+    deweb_Modelo:"http://gestioncolegialadm.somee.com/",
     deweb_Nota:"No Aplica",
     deweb_ExtraLink:"No Aplica",
     deweb_Estado:"Activo"
