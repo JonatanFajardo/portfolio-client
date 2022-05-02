@@ -37,7 +37,7 @@ const data = [
   {
       degra_Id:"5",
       degra_Nombre:"Hamburguesa sobre mesa",
-      degra_Imagen: "https://i.ibb.co/GnwM3z0/Publicida-1-mockup.jpg",
+      degra_Imagen: "https://i.ibb.co/p05tG1Z/Publicida-1-mockup.jpg",
       degra_Categoria: "Publicitario"
   },
   {
@@ -73,7 +73,7 @@ const data = [
   {
     degra_Id:"12",
     degra_Nombre:"Figuras Geometricas",
-    degra_Imagen: "https://i.ibb.co/TbhpVg8/mockup.jpg",
+    degra_Imagen: "https://i.ibb.co/r7r1ZDK/mockup.jpg",
     degra_Categoria: "Icono"
   }
   

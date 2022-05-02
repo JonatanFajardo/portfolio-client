@@ -2,7 +2,7 @@
     width: 100%;
 }
 .image img{
-    height: 253px;
+    /* height: 253px; */
     /* max-height: 250px; */
     /* width: auto; */
     object-fit: cover;
