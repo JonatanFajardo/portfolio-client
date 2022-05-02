@@ -73,7 +73,7 @@ const desarrolloweb = [
     deweb_Id:"4",
     deweb_Nombre:"InstaHelp",
     deweb_NombreDesarrollo:"AHM_INSTA_HELP_ADM",
-    deweb_Descripcion:"Una mesa de ayuda es un sistema de tecnología que ayuda a los equipos de atención al cliente a recibir, administrar, organizar, automatizar, responder e informar sobre las preguntas o problemas de los clientes. Se utiliza para escalar el impacto de cada representante de soporte y soluciones para sus clientes. ",
+    deweb_Descripcion:"Proyecto final desarrollado para la AHM de parte de la jornada matutina; se trata de una mesa de ayuda es un sistema de tecnología que ayuda a los equipos de atención al cliente a recibir, administrar, organizar, automatizar, responder e informar sobre las preguntas o problemas de los clientes. Se utiliza para escalar el impacto de cada representante de soporte y soluciones para sus clientes. ",
     deweb_Imagen:"https://i.ibb.co/n71QtDT/INSTAHELP.jpg",
     deweb_Portal:"Administrativo",
     deweb_Participacion:"-Desarrollo de propuesta de logo *ganador*. -Equipo de diseño para el proyecto *admin* y *web* . -Participación en enquipo encargado de reportes. -Equipo encargado de Graficas. -CRUD de Departamentos.",
