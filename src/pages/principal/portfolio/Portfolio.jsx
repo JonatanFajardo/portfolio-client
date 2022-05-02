@@ -34,7 +34,7 @@ const datapf =[
    },
    {
        Nombre: "Hamburguesa sobre mesa",
-       Url: "https://i.ibb.co/xSQBFzs/Publicida-1.jpg",
+       Url: "https://i.ibb.co/0twyCCn/Publicida-1-mockup.jpg",
        Categoria: "Diseño Creativo",
        SubCategoria: "Publicitario"
    },

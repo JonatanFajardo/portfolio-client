@@ -36,8 +36,8 @@ const data = [
   },
   {
       degra_Id:"5",
-      degra_Nombre:"Hamburguesa sobre mesa",
-      degra_Imagen: "https://i.ibb.co/p05tG1Z/Publicida-1-mockup.jpg",
+      degra_Nombre:"Hamburguesa sobre mesa", 
+      degra_Imagen: "https://i.ibb.co/0twyCCn/Publicida-1-mockup.jpg",
       degra_Categoria: "Publicitario"
   },
   {
@@ -61,7 +61,7 @@ const data = [
   {
     degra_Id:"10",
     degra_Nombre:"vaso de licuado",
-    degra_Imagen: "https://i.ibb.co/GH2m6jb/Publicida-3.jpg",
+    degra_Imagen: "https://i.ibb.co/nRHW3Tc/Publicida-3.jpg",
     degra_Categoria: "Publicitario"
   },
   {
