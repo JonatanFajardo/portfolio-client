@@ -57,7 +57,7 @@ const About = () => {
             </div>
             <div className="row mb-3">
               <div className="col-lg-12">
-                <Link to="/SobreMi" className="btn btn-danger px-3 bg-red me-5">
+                <Link to="/SobreMi" className="btn btn-danger px-3 bg-red me-3">
                 Sobre mí
                 </Link>
                 <a href="https://drive.google.com/file/d/1GTLMXJTvhMQChjIgNt5Lgut1P0nPRTCb/view?usp=sharing" className="btn btn-danger px-3 bg-red me-5" target="_blank">
