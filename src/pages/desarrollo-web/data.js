@@ -100,7 +100,7 @@ const desarrolloweb = [
     deweb_Id:"5",
     deweb_Nombre:"PetsHome",
     deweb_NombreDesarrollo:"PetsHome",
-    deweb_Descripcion:"PetsHome brinda ayuda para registrar la información la cual una organización de refugio de perros conlleva, la cual está desarrollado en Net Core.",
+    deweb_Descripcion:"PetsHome brinda ayuda para registrar la información la cual una organización de refugio de perros conlleva, la cual está desarrollado en Net Framework.",
     deweb_DescripcionTecnica:"",
     deweb_Imagen:"https://i.ibb.co/0snqhG6/Pets-Home-MOCKUP.jpg",
     deweb_Portal:"Administrativo",

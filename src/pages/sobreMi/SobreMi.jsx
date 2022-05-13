@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import HorizontalCards from "../../components/horizontalCards/horizontalCards";
-import image from "../../assets/img/Trabajando en Escritorio.svg";
+import image from "../../assets/img/about.png";
 import imgCertificate from "../../assets/img/Certificate.png";
 
 const dataResumen = [
@@ -195,43 +195,9 @@ const dataResumen = [
 const Resumen = () => {
   return (
     <>
-      {/* <!-- wellcome section start --> */}
-      <section id="wellcome">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col text-center">
-              <h1 className="text-uppercase fw-bold">Sobre Mi</h1>
-              <p>
-                <Link to="/" className="font-color-red">
-                  Home
-                </Link>{" "}
-                / Resumen
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="waves">
-          <div className="waves-item">
-            {/* <svg
-                  viewBox="0 0 500 150"
-                  preserveAspectRatio="none"
-                  style={{ height: "100%", width: " 100%" }}
-                >
-                  <path
-                    d="M0.00,49.98 C220.37,45.88 280.19,146.53 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    className="gray-100"
-                    style={{ fill: "#F3F6F9" }}
-                  ></path>
-                </svg> */}
-            <img src={WavesServices} />
-          </div>
-        </div>
-      </section>
-      {/* <!-- wellcome section start --> */}
-
       {/* <!-- description section start --> */}
       <section className="description gray-100">
-        <div className="container">
+        {/* <div className="container">
           <div className="row mc">
             <div className="col-sm-12 col-md-6 text-center">
               <img
@@ -267,74 +233,167 @@ const Resumen = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <section className="p-5">
-          <div className="row">
+          {/* <!-- wellcome section start --> */}
+          <section id="wellcome" className="card p-0 mb-3">
+            <div className="card-body ">
+              <div className="row ">
+                <div className="col-2">
+                  <img src={image}></img>
+                </div>
+                <div className="col-5 d-flex align-items-center">
+                  <div>
+                    <h6 className="fs-2 text-bold">Jonatan Fajardo</h6>
+                    <a
+                      class="text-decoration-none"
+                      href="mailto:jonatanabimelecfajardo@gmail.com"
+                    >
+                      Jonatanabimelecfajardo@gmail.com
+                    </a>
+                    <br />
+                    <a class="text-decoration-none">504 8932-2291</a>
+                  </div>
+                </div>
+                <div className="col-5 d-flex align-items-end justify-content-end">
+                  <a
+                    class="btn btn-red"
+                    href="https://drive.google.com/file/d/1GTLMXJTvhMQChjIgNt5Lgut1P0nPRTCb/view?usp=sharing"
+                    className="btn btn-danger bg-red"
+                    target="_blank"
+                  >
+                    Curriculum
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          {/* <!-- wellcome section start --> */}
+          <div className="row ">
             <div className="col-md-12 col-lg-4">
-              <section className=" ">
-                <div className="card shadow-sm">
-                  <div className="card-body">
-                    {/* titulo */}
-                    <h5 class="card-title">Habilidades Técnicas</h5>
-                    <p>Desarrollo web</p>
-                    <div class="lenguajes">
-                      <ul>
-                        <li>CSS</li>
-                        <li>HTML</li>
-                        <li>JavaScript</li>
-                        <li>C#</li>
-                        <li>PHP</li>
-                        <li>SQL Server</li>
-                      </ul>
+              <article className="row">
+                <article className="col-12 mb-3">
+                  <div className="card shadow-sm">
+                    <div className="card-body">
+                      {/* titulo */}
+                      <h5 class="card-title">Habilidades Técnicas</h5>
+                      <p>Desarrollo web</p>
+                      <div class="lenguajes">
+                        <ul>
+                          <li>CSS</li>
+                          <li>HTML</li>
+                          <li>JavaScript</li>
+                          <li>C#</li>
+                          <li>PHP</li>
+                          <li>SQL Server</li>
+                        </ul>
+                      </div>
+                      <p>Diseño Creativo</p>
+                      <div class="lenguajes">
+                        <ul>
+                          <li>Adobe Photoshop</li>
+                          <li>Adobe Ilustrator</li>
+                          <li>Adobe XD</li>
+                        </ul>
+                      </div>
                     </div>
-                    <p>Diseño Creativo</p>
-                    <div class="lenguajes">
+                  </div>
+                </article>
+
+                <article className="col-12 mb-3">
+                  <div className="card shadow-sm">
+                    <div className="card-body">
+                      {/* titulo */}
+                      <h5 class="card-title">Servicios</h5>
                       <ul>
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe Ilustrator</li>
-                        <li>Adobe XD</li>
+                        <li>Desarrollo Web</li>
+                        <li>Diseño Creativo</li>
                       </ul>
                     </div>
                   </div>
-                </div>
-              </section>
+                </article>
+
+                <article className="col-12 mb-3">
+                  <div className="card shadow-sm">
+                    <div className="card-body">
+                      {/* titulo */}
+                      <h5 class="card-title">Idiomas</h5>
+                      <ul>
+                        <li>Español - Nativo</li>
+                        <li>Ingles - A1</li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              </article>
             </div>
 
             <div className="col-sx-12 col-lg-8">
-              <div className="card shadow-sm">
-                <div className="card-body">
-                  <div className="row">
-                    {/* titulo */}
-                    <h5 className="card-title">Formación académica</h5>
-
-                    <div className=" ">
-                      <article className="education-item h-100">
-                        <FontAwesomeIcon
-                          icon={faGraduationCap}
-                          className="education-icon font-color-red"
-                        />
-                        <h3 className="education-date font-color-red">2019</h3>
-                        <h5 className="card-title">INTAE</h5>
-                        <p className="text-muted fw-normal m-0">
-                          Instituto Tecnologico De Administracion De Empresas
-                        </p>{" "}
-                        <p className="card-text text-muted">2014 - 2019</p>
-                      </article>
+              <div className="row">
+                <div className="col-12 mb-3">
+                  <div className="card shadow-sm">
+                    <div className="card-body">
+                      <div className="row">
+                        {/* titulo */}
+                        <h5 className="card-title">Extracto profesional</h5>
+                        <p>
+                          Hola, soy Jonatan Fajardo. Hace más de 3 años inicié
+                          en el mundo de la tecnología, y desde entonces estudio
+                          intensamente por cuenta propia mucho de las áreas que
+                          esta implica, soy un multidisciplinario que
+                          actualmente realiza proyectos de Escritorio,
+                          Desarrollo web y Diseño Gráfico por otro lado he
+                          incursionado en el estudio de redes y ciberseguridad.
+                          Tambien fui parte del proceso educativo de laAHMsiendo
+                          esta la cuarta generacion y en la cual me especialize
+                          en Desarrollo de software.
+                        </p>
+                      </div>
                     </div>
-                    <div className="col-sx-12 col-lg-6 ">
-                      <article className="education-item h-100">
-                        <FontAwesomeIcon
-                          icon={faGraduationCap}
-                          className="education-icon font-color-red"
-                        />
-                        <h3 className="education-date font-color-red">2021</h3>
-                        <h5 className="card-title">AHM</h5>
-                        <p className="text-muted fw-normal m-0">
-                          Academia Programadores
-                        </p>{" "}
-                        <p className="card-text text-muted">2020 - 2021</p>
-                      </article>
+                  </div>
+                </div>
+                <div className="col-12 mb-3">
+                  <div className="card shadow-sm">
+                    <div className="card-body">
+                      <div className="row">
+                        {/* titulo */}
+                        <h5 className="card-title">Formación académica</h5>
+
+                        <div className=" ">
+                          <article className="education-item h-100">
+                            <FontAwesomeIcon
+                              icon={faGraduationCap}
+                              className="education-icon font-color-red"
+                            />
+                            <h3 className="education-date font-color-red">
+                              2019
+                            </h3>
+                            <h5 className="card-title">INTAE</h5>
+                            <p className="text-muted fw-normal m-0">
+                              Instituto Tecnologico De Administracion De
+                              Empresas
+                            </p>{" "}
+                            <p className="card-text text-muted">2014 - 2019</p>
+                          </article>
+                        </div>
+                        <div className="col-sx-12 col-lg-6 ">
+                          <article className="education-item h-100">
+                            <FontAwesomeIcon
+                              icon={faGraduationCap}
+                              className="education-icon font-color-red"
+                            />
+                            <h3 className="education-date font-color-red">
+                              2021
+                            </h3>
+                            <h5 className="card-title">AHM</h5>
+                            <p className="text-muted fw-normal m-0">
+                              Academia Programadores
+                            </p>{" "}
+                            <p className="card-text text-muted">2020 - 2021</p>
+                          </article>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
