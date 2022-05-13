@@ -1,5 +1,6 @@
 import React from "react";
 import WorkImage from "../../../assets/img/work-working.gif";
+import { Link } from "react-router-dom";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 const About = () => {
@@ -55,7 +56,10 @@ const About = () => {
               </div>
             </div>
             <div className="row mb-3">
-              <div className="col-lg-12 d-flex align-items-center">
+              <div className="col-lg-12">
+                <Link to="/SobreMi" className="btn btn-danger px-3 bg-red me-5">
+                Sobre mí
+                </Link>
                 <a href="https://drive.google.com/file/d/1GTLMXJTvhMQChjIgNt5Lgut1P0nPRTCb/view?usp=sharing" className="btn btn-danger px-3 bg-red me-5" target="_blank">
                   Descargar CV
                 </a>
