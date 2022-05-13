@@ -65,6 +65,12 @@ const Item = () => {
             <div className="col-md-12 col-lg-12 p-4 font-color-gra ">
               <div className="flex-content">
                 <p className="fs-4 my-4">{dataSpecific.deweb_Descripcion}</p>
+                          <p title="DescripcionTecnica">
+                          Descripcion Tecnica:
+                          </p>
+                          <p title="">
+                          {dataSpecific.deweb_DescripcionTecnica}
+                          </p>
                 {/* Informacion extra */}
                 <div className="row">
                   {/* Card */}
@@ -82,6 +88,8 @@ const Item = () => {
                               Nombre de Desarrollo:
                             </strong>
                             {dataSpecific.deweb_NombreDesarrollo}
+                          </li>
+                          <li>
                           </li>
                           <li>
                             <strong title="Portal">Portal:</strong>

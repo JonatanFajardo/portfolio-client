@@ -246,79 +246,108 @@ const Resumen = () => {
               <div className="container">
                 <h3>Extracto profesional</h3>
                 <p>
-                Hola, soy Jonatan Fajardo. 
-                Hace más de 3 años inicié en el mundo de la tecnología, y desde entonces 
-                estudio intensamente por cuenta propia mucho de las áreas que esta implica, 
-                soy un multidisciplinario que actualmente realiza proyectos de Escritorio, 
-                Desarrollo web y Diseño Gráfico por otro lado he incursionado en el estudio de 
-                redes y ciberseguridad. Tambien fui parte del proceso educativo de la 
-                <a
-                  className="link font-color-red text-decoration-none"
-                  href="http://www.ahm-honduras.com/?p=4609"
-                  target="_blank"
-                > AHM </a> 
-                siendo esta la cuarta generacion y en la cual me especialize en Desarrollo de software.
+                  Hola, soy Jonatan Fajardo. Hace más de 3 años inicié en el
+                  mundo de la tecnología, y desde entonces estudio intensamente
+                  por cuenta propia mucho de las áreas que esta implica, soy un
+                  multidisciplinario que actualmente realiza proyectos de
+                  Escritorio, Desarrollo web y Diseño Gráfico por otro lado he
+                  incursionado en el estudio de redes y ciberseguridad. Tambien
+                  fui parte del proceso educativo de la
+                  <a
+                    className="link font-color-red text-decoration-none"
+                    href="http://www.ahm-honduras.com/?p=4609"
+                    target="_blank"
+                  >
+                    {" "}
+                    AHM{" "}
+                  </a>
+                  siendo esta la cuarta generacion y en la cual me especialize
+                  en Desarrollo de software.
                 </p>
               </div>
             </div>
           </div>
         </div>
+
+        <section className="p-5">
+          <div className="row">
+            <div className="col-md-12 col-lg-4">
+              <section className=" ">
+                <div className="card shadow-sm">
+                  <div className="card-body">
+                    {/* titulo */}
+                    <h5 class="card-title">Habilidades Técnicas</h5>
+                    <p>Desarrollo web</p>
+                    <div class="lenguajes">
+                      <ul>
+                        <li>CSS</li>
+                        <li>HTML</li>
+                        <li>JavaScript</li>
+                        <li>C#</li>
+                        <li>PHP</li>
+                        <li>SQL Server</li>
+                      </ul>
+                    </div>
+                    <p>Diseño Creativo</p>
+                    <div class="lenguajes">
+                      <ul>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Ilustrator</li>
+                        <li>Adobe XD</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <div className="col-sx-12 col-lg-8">
+              <div className="card shadow-sm">
+                <div className="card-body">
+                  <div className="row">
+                    {/* titulo */}
+                    <h5 className="card-title">Formación académica</h5>
+
+                    <div className=" ">
+                      <article className="education-item h-100">
+                        <FontAwesomeIcon
+                          icon={faGraduationCap}
+                          className="education-icon font-color-red"
+                        />
+                        <h3 className="education-date font-color-red">2019</h3>
+                        <h5 className="card-title">INTAE</h5>
+                        <p className="text-muted fw-normal m-0">
+                          Instituto Tecnologico De Administracion De Empresas
+                        </p>{" "}
+                        <p className="card-text text-muted">2014 - 2019</p>
+                      </article>
+                    </div>
+                    <div className="col-sx-12 col-lg-6 ">
+                      <article className="education-item h-100">
+                        <FontAwesomeIcon
+                          icon={faGraduationCap}
+                          className="education-icon font-color-red"
+                        />
+                        <h3 className="education-date font-color-red">2021</h3>
+                        <h5 className="card-title">AHM</h5>
+                        <p className="text-muted fw-normal m-0">
+                          Academia Programadores
+                        </p>{" "}
+                        <p className="card-text text-muted">2020 - 2021</p>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <div className="waves z-index mt-0 gray-100">
           <img className="waves-item" src={FootAbaut} alt="" />
         </div>
       </section>
       {/* <!-- description section start --> */}
-      <section className="py-5">
-        <div className="container">
-          <div className="row">
-            {/* titulo */}
-            <div className="row">
-              <div className="col-12">
-                <div className="text-center">
-                  <h2 className="fw-bold mb-5">Educación</h2>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-sx-12 col-lg-6 ">
-              <article className="education-item h-100">
-                <FontAwesomeIcon
-                  icon={faGraduationCap}
-                  className="education-icon font-color-red"
-                />
-                <h3 className="education-date font-color-red">2019</h3>
-                <div className="card h-100">
-                  <div className="card-body">
-                    <h5 className="card-title">INTAE</h5>
-                      <p className="text-muted fw-normal m-0">
-                        Instituto Tecnologico De Administracion De Empresas
-                      </p>{" "}
-                    <p className="card-text text-muted">2014 - 2019</p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div className="col-sx-12 col-lg-6 ">
-              <article className="education-item h-100">
-                <FontAwesomeIcon
-                  icon={faGraduationCap}
-                  className="education-icon font-color-red"
-                />
-                <h3 className="education-date font-color-red">2021</h3>
-                <div className="card h-100">
-                  <div className="card-body">
-                    <h5 className="card-title">AHM</h5>
-                    <p className="text-muted fw-normal m-0">
-                      Academia Programadores
-                    </p>{" "}
-                    <p className="card-text text-muted">2020 - 2021</p>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="py-5">
         <div className="container-md-full px-3">
