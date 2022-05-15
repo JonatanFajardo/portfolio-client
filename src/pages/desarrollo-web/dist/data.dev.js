@@ -102,7 +102,7 @@ var desarrolloweb = [{
   deweb_Nombre: "PetsHome",
   deweb_NombreDesarrollo: "PetsHome",
   deweb_Descripcion: "PetsHome brinda ayuda para registrar la información la cual una organización de refugio de perros conlleva, la cual está desarrollado en Net Framework.",
-  deweb_DescripcionTecnica: "",
+  deweb_DescripcionTecnica: "Desarrollado con la estructura DAL ligeramente modificada y haciendo uso del patron MVC se desarrollo el CRUD haciendo uso de Dapper.",
   deweb_Imagen: "https://i.ibb.co/0snqhG6/Pets-Home-MOCKUP.jpg",
   deweb_Portal: "Administrativo",
   deweb_Participacion: "Completamente",
