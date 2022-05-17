@@ -182,7 +182,7 @@ const Item = () => {
                       role="button"
                       aria-pressed="true"
                       title="Comment"
-                      href={dataSpecific.deweb_BaseDatos}
+                      href={dataSpecific.deweb_BaseDatos.link}
                       target="_blank"
                     >
                       Base de Datos

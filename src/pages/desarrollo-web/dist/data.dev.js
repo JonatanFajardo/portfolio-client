@@ -23,7 +23,8 @@ var desarrolloweb = [{
   deweb_BaseDatos: {
     nombre: "Desde API",
     tablas: "Desde API",
-    procedimientos: "Desde API"
+    procedimientos: "Desde API",
+    link: "No Aplica"
   },
   deweb_Repositorio: "https://github.com/JonatanFajardo/GESTION_COLEGIAL_ADM",
   deweb_Modelo: "http://gestioncolegialadm.somee.com/",
@@ -44,7 +45,8 @@ var desarrolloweb = [{
   deweb_BaseDatos: {
     nombre: "No Aplica",
     tablas: "No Aplica",
-    procedimientos: "No Aplica"
+    procedimientos: "No Aplica",
+    link: "No Aplica"
   },
   deweb_Repositorio: "https://github.com/JonatanFajardo/GESTION_COLEGIAL_DESKTOP/tree/CONSUMIENDOAPIGESTION_COLEGIAL_DESKTOP",
   deweb_Modelo: "No Aplica",
@@ -67,7 +69,8 @@ var desarrolloweb = [{
   deweb_BaseDatos: {
     nombre: "GestionColegial_V2.0",
     tablas: "41",
-    procedimientos: "180"
+    procedimientos: "180",
+    link: "No Aplica"
   },
   deweb_Repositorio: "https://github.com/JonatanFajardo/GESTION_COLEGIAL_API",
   deweb_Modelo: "http://gestioncolegialapi.somee.com/",
@@ -90,7 +93,8 @@ var desarrolloweb = [{
   deweb_BaseDatos: {
     nombre: "AHM_INSTA_HELP_ADM",
     tablas: "40",
-    procedimientos: "356"
+    procedimientos: "356",
+    link: "No Aplica"
   },
   deweb_Repositorio: "",
   deweb_Modelo: "No Aplica",
@@ -113,7 +117,8 @@ var desarrolloweb = [{
   deweb_BaseDatos: {
     nombre: "PetsHome_V1.6",
     tablas: "27",
-    procedimientos: "135"
+    procedimientos: "135",
+    link: "No Aplica"
   },
   deweb_Repositorio: "https://github.com/JonatanFajardo/PetsHome",
   deweb_Modelo: "http://petshome.somee.com/",
@@ -136,7 +141,8 @@ var desarrolloweb = [{
   deweb_BaseDatos: {
     nombre: "MEDICALSYSTEM",
     tablas: "17",
-    procedimientos: "76"
+    procedimientos: "76",
+    link: "No Aplica"
   },
   deweb_Repositorio: "https://github.com/JonatanFajardo/PROMEDICAL",
   deweb_Modelo: "No Aplica",
@@ -159,7 +165,8 @@ var desarrolloweb = [{
   deweb_BaseDatos: {
     nombre: "No Aplica",
     tablas: "No Aplica",
-    procedimientos: "No Aplica"
+    procedimientos: "No Aplica",
+    link: "No Aplica"
   },
   deweb_Repositorio: "https://github.com/JonatanFajardo/ASIANFOOD",
   deweb_Modelo: "https://jonatanfajardo.github.io/ASIANFOOD/",
@@ -182,7 +189,8 @@ var desarrolloweb = [{
   deweb_BaseDatos: {
     nombre: "No Aplica",
     tablas: "No Aplica",
-    procedimientos: "No Aplica"
+    procedimientos: "No Aplica",
+    link: "No Aplica"
   },
   deweb_Repositorio: "https://github.com/JonatanFajardo/PIZZADELY",
   deweb_Modelo: "https://jonatanfajardo.github.io/PIZZADELY/",
@@ -205,7 +213,8 @@ var desarrolloweb = [{
   deweb_BaseDatos: {
     nombre: "db_pizza",
     tablas: "15",
-    procedimientos: "81"
+    procedimientos: "81",
+    link: "https://drive.google.com/file/d/14T7BMJFfXu0sZaCp93_qfwW0D_T1rYSQ/view?usp=sharing"
   },
   deweb_Repositorio: "No Aplica",
   deweb_Modelo: "No Aplica",
