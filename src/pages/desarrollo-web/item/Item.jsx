@@ -206,7 +206,7 @@ const Item = () => {
               to="/DesarrolloWeb"
               className="text-decoration-none font-color-red"
             >
-              ver más
+              Ver más
             </Link>
           </div>
         </div>
