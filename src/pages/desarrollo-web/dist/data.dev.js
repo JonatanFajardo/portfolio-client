@@ -189,6 +189,29 @@ var desarrolloweb = [{
   deweb_Nota: "No Aplica",
   deweb_ExtraLink: "No Aplica",
   deweb_Estado: "Activo"
+}, {
+  deweb_Id: "9",
+  deweb_Nombre: "Base de datos pizza",
+  deweb_NombreDesarrollo: "",
+  deweb_Descripcion: "Base de datos para un sistema administrativo.",
+  deweb_DescripcionTecnica: "",
+  deweb_Imagen: "https://i.ibb.co/MVdxjbP/Db-Pizza.jpg",
+  deweb_Portal: "No Aplica",
+  deweb_Participacion: "No Aplica",
+  deweb_Autor: {
+    nombre: "Jonatan Fajardo"
+  },
+  deweb_Categoria: "MySQL",
+  deweb_BaseDatos: {
+    nombre: "db_pizza",
+    tablas: "15",
+    procedimientos: "81"
+  },
+  deweb_Repositorio: "No Aplica",
+  deweb_Modelo: "No Aplica",
+  deweb_Nota: "No Aplica",
+  deweb_ExtraLink: "No Aplica",
+  deweb_Estado: "Activo"
 }]; // function Data() {
 //     return datos;
 // }
